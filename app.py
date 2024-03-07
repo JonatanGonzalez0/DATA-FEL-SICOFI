@@ -12,6 +12,7 @@ from os.path import expanduser
 import xlrd
 import openpyxl
 
+
 #for style update pip install --upgrade xlsxwriter
 
 home = expanduser("~")
@@ -214,12 +215,12 @@ def extraerInfo():
                 nulls.append(file_name_export)
                 continue
             try:
-                tree = ET.parse(file_name)
+                tree = ET.parse(file_name,parser=ET.XMLParser(encoding="utf-8"))
                 ET.indent(tree, space="\t", level=0)
                 tree.write(file_name, encoding="utf-8")     
-                tree = ET.parse(file_name)
+                tree = ET.parse(file_name ,parser=ET.XMLParser(encoding="utf-8"))
                 root = tree.getroot()  
-                
+
                 try:
                     DATOS_Emision = root.find('DTE:SAT',ns).find('DTE:DTE',ns).find('DTE:DatosEmision',ns)
                     DATOS_Certificacion = root.find('DTE:SAT',ns).find('DTE:DTE',ns).find('DTE:Certificacion',ns)
@@ -231,7 +232,6 @@ def extraerInfo():
                 nombreEmisor = nombreEmisor.replace(" ","_")
                 nombreEmisor = nombreEmisor.replace(".","_")
                 nombreEmisor = nombreEmisor.replace("-","_")
-                nombreEmisor = nombreEmisor.replace("?","")
                 nombreEmisor = nombreEmisor.replace("¿","")
 
                 Datosgen = DATOS_Emision.find('DTE:DatosGenerales',ns)
@@ -246,7 +246,12 @@ def extraerInfo():
                 #certificacion
                 nitReceptor = DATOS_Emision.find('DTE:Receptor',ns).get('IDReceptor')
                 NombreReceptor = DATOS_Emision.find('DTE:Receptor',ns).get('NombreReceptor')
-                NombreReceptor = NombreReceptor.replace(",","")
+
+                if NombreReceptor.count(',') > 1:
+                    NombreReceptor = NombreReceptor.replace(","," ")
+                else:
+                    NombreReceptor = NombreReceptor.replace(",","")
+                    
                 noDTE  = DATOS_Certificacion.find('DTE:NumeroAutorizacion',ns).get('Numero')
                 serie = DATOS_Certificacion.find('DTE:NumeroAutorizacion',ns).get('Serie')
                 
@@ -263,8 +268,9 @@ def extraerInfo():
                     total = float(item.find('DTE:Total',ns).text)       
                     temp = Item(cant,descripcion,precioUnit,total)
                     operaciones.append(Operacion(fecha_obj,nitReceptor,NombreReceptor,temp,noDTE,serie)) 
-            except:
-                messagebox.showwarning("Error","No se pudo extraer informacion del archivo")
+            except Exception as e:
+                print(e)
+                messagebox.showwarning("Error","No se pudo extraer informacion del archivo : " + str(e))
                 continue
         operaciones_ordenadas = sorted(operaciones,key=lambda Operacion: Operacion.fecha)
         file_export_csv = path_DataXML + "\\filetemp.csv"
@@ -327,7 +333,7 @@ def extraerInfo():
 
         file_export_xlsx = path_DataXML + "\\" + nombreEmisor +"_"+mesandyear + "_DETALLE_FACTURA.xlsx"
         writer = pd.ExcelWriter(file_export_xlsx)
-        pf.to_excel(writer,sheet_name='REPORTE INVENTARIO POR FACTURA',index=False,header=True,encoding='utf-8',na_rep='NaN')
+        pf.to_excel(writer,sheet_name='REPORTE INVENTARIO POR FACTURA',index=False,header=True,na_rep='NaN')
 
         try:
             format_center = writer.book.add_format()
@@ -385,14 +391,15 @@ def extraerInfo():
         #Freeze pane on the top row.
         writer.sheets['REPORTE INVENTARIO POR FACTURA'].freeze_panes(1, 0)
 
-    
-        writer.save()
+        
+        writer.close()
         
         #delete file temp
         os.remove(file_export_csv)
         messagebox.showinfo("Correcto","Se analizaron los archivos correctamente")
-    except:
-        messagebox.showwarning("Error","No se abrio ningun archivo")
+    except Exception as e:
+        print(e)
+        messagebox.showwarning("Error","No se abrio ningun archivo " + str(e))
 
 def prepareFileExcel (file_name_xls):
     try:

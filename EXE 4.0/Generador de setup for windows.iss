@@ -22,9 +22,9 @@ DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\jonat\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\EDITOR DATOS FEL A SICOFI\DATA-FEL-SICOFI\EXE 4.0\INSTALLER
+OutputDir=C:\Users\JonatanGonzalez\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\EDITOR DATOS FEL A SICOFI\DATA-FEL-SICOFI\EXE 4.0\INSTALLER
 OutputBaseFilename=Instalador_FEL-A-SICOFI
-SetupIconFile=C:\Users\jonat\Downloads\favicon (1).ico
+SetupIconFile=C:\Users\JonatanGonzalez\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\EDITOR DATOS FEL A SICOFI\DATA-FEL-SICOFI\EXE 4.0\LOGO.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -36,7 +36,7 @@ Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\jonat\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\EDITOR DATOS FEL A SICOFI\DATA-FEL-SICOFI\EXE 4.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\JonatanGonzalez\OneDrive - Facultad de Ingeniería de la Universidad de San Carlos de Guatemala\Escritorio\EDITOR DATOS FEL A SICOFI\DATA-FEL-SICOFI\EXE 4.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
