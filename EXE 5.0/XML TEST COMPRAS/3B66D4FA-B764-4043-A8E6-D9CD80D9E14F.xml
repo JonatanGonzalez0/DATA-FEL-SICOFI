@@ -1,0 +1,302 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0 GT_Documento-0.2.1.xsd">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-10T10:05:49.450-06:00" Tipo="FACT" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="sac@kemik.com" NITEmisor="86350293" NombreComercial="Kemik" NombreEmisor="Mercadoweb, S.A.">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>7 AVENIDA, 2-21 COMERCIO, ZONA 4, GUATEMALA, GUATEMALA</ns0:Direccion>
+						<ns0:CodigoPostal>1004</ns0:CodigoPostal>
+						<ns0:Municipio>GUATEMALA</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="Karla Hern?ndez">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>Ciudad</ns0:Direccion>
+						<ns0:CodigoPostal>0</ns0:CodigoPostal>
+						<ns0:Municipio>N/A</ns0:Municipio>
+						<ns0:Departamento>N/A</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>1.0</ns0:Cantidad>
+						<ns0:UnidadMedida>UND</ns0:UnidadMedida>
+						<ns0:Descripcion>Dragonhawk Kit completo de m?quina rotativa de tatuaje, m?quina de maquillaje permanente de m?stil para tatuajes, 20 unidades, cartuchos, ag</ns0:Descripcion>
+						<ns0:PrecioUnitario>1012.00</ns0:PrecioUnitario>
+						<ns0:Precio>1012.0000</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>903.5700</ns0:MontoGravable>
+								<ns0:MontoImpuesto>108.43</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>1012.0000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>2.0</ns0:Cantidad>
+						<ns0:UnidadMedida>UND</ns0:UnidadMedida>
+						<ns0:Descripcion>Kwadron Optima - Cartucho de maquillaje permanente profesional, 1 delineador redondo, cono de 0.012 in de largo, caja de 20 1 Round Liner .3</ns0:Descripcion>
+						<ns0:PrecioUnitario>457.00</ns0:PrecioUnitario>
+						<ns0:Precio>914.0000</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>816.0700</ns0:MontoGravable>
+								<ns0:MontoImpuesto>97.93</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>914.0000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="S" NumeroLinea="3">
+						<ns0:Cantidad>1.0</ns0:Cantidad>
+						<ns0:UnidadMedida>UND</ns0:UnidadMedida>
+						<ns0:Descripcion>VISA CUOTAS 6</ns0:Descripcion>
+						<ns0:PrecioUnitario>33.72</ns0:PrecioUnitario>
+						<ns0:Precio>33.7200</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>30.1100</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.61</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>33.7200</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="S" NumeroLinea="4">
+						<ns0:Cantidad>1.0</ns0:Cantidad>
+						<ns0:UnidadMedida>UND</ns0:UnidadMedida>
+						<ns0:Descripcion>Envio Gratis en Ciudad con Moto</ns0:Descripcion>
+						<ns0:PrecioUnitario>0.0</ns0:PrecioUnitario>
+						<ns0:Precio>0.000</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>0.000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>0.00</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>0.000</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="209.97" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>1959.7200</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>98978802</ns0:NITCertificador>
+				<ns0:NombreCertificador>Contap S.A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="3076800579" Serie="3B66D4FA">3B66D4FA-B764-4043-A8E6-D9CD80D9E14F</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-10T10:05:49.847</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="xmldsig-6809c03e-04ab-4643-8e4b-47321382552f">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-6809c03e-04ab-4643-8e4b-47321382552f-ref0" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>rwdmHw0mBTMKtKg9tlQz76S6+QTOR37bWs4ZCtgbrPM=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-6809c03e-04ab-4643-8e4b-47321382552f-signedprops">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>dupzmxQgJiUlTlOY1yubVq1BiI4BpRtFdy8Xh59Ccwc=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-6809c03e-04ab-4643-8e4b-47321382552f-sigvalue">
+SvJR9N5jWANUD4HeDLkvFtXnndtXpwUNAF3ZjdKLSCRUATHgpVP9Q19PAfkISbzSsKEEAYKLBP4s
+ZQaFo347jGSpykVt+2C0Whn9i2Fxo+lrfvWm4Om1ySSU4d7w7OxPKHp5xhAgRtXoObmim9xckod5
+jQou5k1YoU/0PioCLd85GMeJ1JSFJw3czOVgeBjccdMnQGHIxY4N2P6aBNWsuBCXAnVz32T/IKYu
+SvPom/XVMsot/Bl/7q92nMlV+lD6fr9HEbg1ImEUfDUIt2Fnk1vtkJcB+yyfjTVxJyUiE/MK1drz
+A2+fH9pfYId+q0I8QUUd8YFUnffTdlflfkbbYw==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIDYTCCAkmgAwIBAgIIbKvD3dWbQTAwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTI0MDcxMTE1NDU1N1oX
+DTI2MDcxMTE1NDU1N1owKDERMA8GA1UEAwwIODYzNTAyOTMxEzARBgNVBAoMCnNhdC5nb2IuZ3Qw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCoJq1x44ap5FXeNnumDpoWya1bGBannXa8
+j0Y65TECGB0UYuPd+bsJKRXTAtTpIFS+ez9Qs+MB6PpbDeNzIIuibn1Bo6MT5cwY/HOXd6dOYQtG
+hMojDosktnNwXjYsCKy3yfJ6MVgL/DkXFzrk0wP4exvHoO3TkjbzMTmLnZLwFZ5Kijw50r5bJ8f0
+aFp/4UYcIGhwSPsgjIoruleuCYb1eEfBVyk13omVG4NoHeWQ3nkGkZQ6EgfNTCbDJjqFK+wxOpRR
+xbcEB+5GbGYS/OkQnOIGl89DZjNribTNQxJOgUrWjMraw7sdXgfhdHt3WJnC8YSZVUYCri7JOX93
+LEFZAgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWIJ2jVgosclDBAK01cheai//
++EowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBT0AZTGwviCVCb79W7l
+PEtyb71LSzAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBABFBrouwZ3MTnvI7I0xG
+Z3D8leJYiT3EfnGaQLbMBOWpyTOM732ZASIz7W5l4YoAlm9S8p4Jtsr9eFJzS6kl5+nrxr6HkP+U
+UYEKVHQu0HrOfeWINRuNcK7sSfl1aXqrOSLd2PmRlCMolRGEEGxO9U3GMJqhXLLGFZI6lCPXla2O
+HJRjW9Ig2rpguhtkhuS9odVUWk7z2Wb3MW/CL6s+GvRW5dR73V6pPZsKNjGSW94UoxDRO+U//DOT
+qT8L5LOZJI63NFfH0miBKpAw0r1J8+J1wgQGcN/s37zYodAeP/dU2e8dM6/50Aj6NCFGQRdHt/F1
+d1arjGCpeWisgWIVf1s=
+</ns2:X509Certificate>
+				<ns2:X509IssuerSerial>
+					<ns2:X509IssuerName>cn=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+					<ns2:X509SerialNumber>7830567734652649776</ns2:X509SerialNumber>
+				</ns2:X509IssuerSerial>
+				<ns2:X509SubjectName>o=sat.gob.gt,cn=86350293</ns2:X509SubjectName>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-6809c03e-04ab-4643-8e4b-47321382552f">
+				<ns3:SignedProperties Id="xmldsig-6809c03e-04ab-4643-8e4b-47321382552f-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-10T16:05:49.723Z</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>ci3lyQFc/IvPo4qceFkKqipdE5NqU7mfBm93kiMuEtU=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>cn=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>7830567734652649776</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>dMKFT5GpRMlOOkvm+Eejattj/UGN45s1Ujg/fal4b6w=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>cn=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>49188108610261972699090769446035082589</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106-ref0" URI="">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>pTkP9Ltv5yHKQRhoQRpCuZ++NP0CIjMavKXjwe/ZpLo=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106-signedprops">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>i/UHVPebDKBzkAFdam0pxIVIsygumIq5XhCeA8GBRqU=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106-sigvalue">
+TZHnLTBMfiqJIF6in4SH04Mr15J1UyZ8g9koHhi/7O5QCgPzGfyx+EJaEPvDv1KqE7ESo/MkrcIp
+TgSXCdoH6vrwnCxklwUV055fhyfTX3XfhpVveqN/mwDzgpVO2QUYk/T74EhTlxO9TScmtkcXVXqE
+0WtDuXwGhAiAbaB+Pfkftyg3EqClKppZ/6m7OJLgIMANJ/bhBFV2nzfa/qVaJRLkSfljdZjy1AVS
+WbEVcswXNaXWkiXiGlYUit+pRLjqGfRpT+fbigbj+XgiB0S4vG9qqrXRX+8mUcutvZdQok96bYh1
+y3ACZpsTeQS/kBVDAsb99uhtU2SAzldlp3zSaw==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIKCDCCB/CgAwIBAgIMQUNHVEkyAAAAAB00MA0GCSqGSIb3DQEBCwUAMIIBLzEmMCQGA1UEAxYd
+UmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxj
+bGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+EjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEg
+UmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwG
+A1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYD
+VQQGEwJHVDAeFw0yNDA2MTkxNzEyMDJaFw0yNTA2MTgxNzEyMDJaMIIBpDEVMBMGA1UEAwwMQ09O
+VEFQLCBTLkEuMSMwIQYJKoZIhvcNAQkBFhRmYWN0dXJhc2d0QHN0c2EuaW5mbzEVMBMGA1UELQwM
+TklUIDk4OTc4ODAyMRwwGgYDVQQFDBNEUEkgMjI4Ni04NzI0MS0wMTAxMTMwMQYDVQQMDCpBZG1p
+bmlzdHJhZG9yIMOabmljbyB5IFJlcHJlc2VudGFudGUgTGVnYWwxFTATBgNVBAoMDENPTlRBUCwg
+Uy5BLjERMA8GA1UECwwIR0VSRU5DSUExEjAQBgNVBAcMCUd1YXRlbWFsYTELMAkGA1UEFAwCTkEx
+PzA9BgNVBAkMNlbDrWEgNCAxLTAwIFpvbmEgNCBDYW1wdXMgVGVjbm9sw7NnaWNvIFRvcnJlIDIg
+T2YuIDMwNTESMBAGA1UEBgwJR3VhdGVtYWxhMTMwMQYDVQQNDCpDZXJ0aWZpY2FkbyBEaWdpdGFs
+IHBhcmEgcGVyc29uYSBqdXLDrWRpY2ExJzAlBgNVBCoMHkpvc8OpICBNYW51ZWwgIFRvYmFyICBT
+b2xhcmVzIDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALUaShN1Q/gPzK55PcpR32Xr
+q5eQHQuVxSlWWMMz18VV7yZyEro5tM3DQId4AMBrBrqH4Jkjyy71IWGUVAPDFT4jJatO7A264IYB
+4vr4EeS0HvBwo5KlbK9fPBPldYesxCCNRuZPWPb+QbnI6oqxf0nlNvPfY+DCatpD78woKeOvrhlh
+jMw45lOIR7WnLmiSIlvmCxwonJIuru59pRoY1XJcEUa5FnBJhWYbH8HgFpnu20ylCC0KRpjht6dU
+XA+OCx2aM3X3l/ruhUKyCBla0Q3Bbb82B3FeCLVK5ZxxnfurBHWTWWUfs8Oo0IxxKEsWojKYgklN
+uQFwUN7HuXO7N8ECAwEAAaOCA6kwggOlMEAGCCsGAQUFBwEBBDQwMjAwBggrBgEFBQcwAYYkaHR0
+cDovL29jc3AucmVhY2hjb3JlLmNvbS9PQ1NQUFJJU01BMIIBTwYDVR0RBIIBRjCCAUKBJ1ByZXN0
+YWRvciBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2lvboFbIGF1dG9yaXphZG8gc2VndW4gcmVz
+b2x1Y2lvbiBOby4gUFNDLTAxLTIwMTQgZW1pdGlkYSBwb3IgZWwgUlBTQyBkZWwgTWluaXN0ZXJp
+byBkZSBFY29ub21pYYFXIGRlIGFjdWVyZG8gYSBsYSBMZXkgcGFyYSBlbCByZWNvbm9jaW1pZW50
+byBkZSBsYXMgY29tdW5pY2FjaW9uZXMgeSBmaXJtYXMgZWxlY3Ryb25pY2FzgUsgRGVjcmV0byA0
+Ny0yMDA4IGRlbCBDb25ncmVzbyBkZSBsYSBSZXB1YmxpY2EgZGUgR3VhdGVtYWxhIHkgc3UgcmVn
+bGFtZW50by6BFGZhY3R1cmFzZ3RAc3RzYS5pbmZvMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHBzOi8v
+Y2EuYWR2YW50YWdlLXNlY3VyaXR5LmNvbS9hY3ByaXNtYTAxL2NybC9wcmlzbWEyX2d0LmNybDCC
+AWcGA1UdIwSCAV4wggFagBQWdf6ZNR0f1d2vT+ArnRvwu4xKGqGCATekggEzMIIBLzEmMCQGA1UE
+AxYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lv
+YWxjbGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMu
+QS4xEjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5p
+ZGEgUmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEO
+MAwGA1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQsw
+CQYDVQQGEwJHVIIHQUNHVDJJMTARBglghkgBhvhCAQEEBAMCAIAwCwYDVR0PBAQDAgHgMBIGA1Ud
+EwEB/wQIMAYBAQACAQAwHQYDVR0lBBYwFAYIKwYBBQUHAwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEB
+CwUAA4ICAQBCwEDPn12ruHuuShCL/NnqfyOHJY8yaZuLCe7nzsJlQIskPemXthQLrnywORrJ10HL
+ffHLmGSUiKFYZSQzl9UEqQH2+yMPaSaX02erRTqrhCg6IZitoEwj8F+GVM0goPFnvCeNeiITfAWm
+x16p7CDS1AEpg704n3GKYPN0wtzx1YNv9MUqHIDqGYH9viXXmWXARAukPO20WoFKCLwM+XFpLobw
+tzu6MW040jTSm/K7WK6Faqlb1xytUXQUIH22m/JnY9bgnpex81o+z6S+Vn1Uan+kPkN/ZGRb04pj
+vv21xGXTL9a6orog5Acq90YDcobYpAfgmAc8mIkBlVFooGigx0aYNINaFtzvyJ7milRRYIGjllM/
+2m9bIwHGKnKtRrj4WOkqHMJqnX5Agx+4JWdrgh/OH5/747vIPsQAtBrW2ASyZZXpWly3lQgvZrZg
+VoOuQpluA/1+hxeC0dyv4gGpNfuyUHyq0NYtwJAe058zh9hGmIh5GFFDc+Wnu5RD1eYh67we2bn7
+i2fCkkmiPjfcfy7+gziIZfXYDuSdzgy+d5BVjTWriRRpBwjfh2Rq81zhop9Lwa2f+uCJs5bIMsAN
+vlC/Aiy/+rtfL7+fg1X6UfnIQ+Uupcqi849cLxyrir2AjVE0Rr0i+D8j8gvVr3NVhK27qQotnvaz
+ThojADLbpg==
+</ns2:X509Certificate>
+				<ns2:X509IssuerSerial>
+					<ns2:X509IssuerName>c=GT,st=Guatemala,l=Guatemala,postalCode=01009,street=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,x500UniqueIdentifier=59398485,ou=Guatemala,o=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=servicioalcliente@prisma.gt,cn=Registro Digital Prisma\, S.A.</ns2:X509IssuerName>
+					<ns2:X509SerialNumber>20197860511122673671832870196</ns2:X509SerialNumber>
+				</ns2:X509IssuerSerial>
+				<ns2:X509SubjectName>givenName=Jos?  Manuel  Tobar  Solares\ ,description=Certificado Digital para persona jur?dica,c=Guatemala,street=V?a 4 1-00 Zona 4 Campus Tecnol?gico Torre 2 Of. 305,telephoneNumber=NA,l=Guatemala,ou=GERENCIA,o=CONTAP\, S.A.,title=Administrador ?nico y Representante Legal,serialNumber=DPI 2286-87241-0101,x500UniqueIdentifier=NIT 98978802,1.2.840.113549.1.9.1=facturasgt@stsa.info,cn=CONTAP\, S.A.</ns2:X509SubjectName>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106">
+				<ns3:SignedProperties Id="xmldsig-4b6588a7-3475-432d-a308-c3b30dc19106-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-10T16:05:49.857Z</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>/6JyUiKx0l45B7I7S5lWrFed3nG3jR3Y1hiEFM9cUPs=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>c=GT,st=Guatemala,l=Guatemala,postalCode=01009,street=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,x500UniqueIdentifier=59398485,ou=Guatemala,o=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=servicioalcliente@prisma.gt,cn=Registro Digital Prisma\, S.A.</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>20197860511122673671832870196</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>

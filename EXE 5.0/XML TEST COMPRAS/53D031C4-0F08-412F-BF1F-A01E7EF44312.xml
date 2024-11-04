@@ -1,0 +1,574 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-21T16:51:34-06:00" Tipo="FACT" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="4" CorreoEmisor="" NITEmisor="32375913" NombreComercial="CEMACO ZONA SIETE" NombreEmisor="Nuevos Almacenes, S.A.">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>Calzada Roosevelt 25-50 zona 7 Ancla 1 Guatemala Guatemala</ns0:Direccion>
+						<ns0:CodigoPostal>0</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>Guatemala</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="HERN?NDEZ,FLORES,,KARLA,MARIELA">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>CIUDAD</ns0:Direccion>
+						<ns0:CodigoPostal>0</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>Guatemala</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+					<ns0:Frase CodigoEscenario="1" TipoFrase="2" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000896298|LAVAPLATOS MEZCLADORA FOSET AQUA 49687                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>265.950000</ns0:PrecioUnitario>
+						<ns0:Precio>265.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>237.460000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>28.490000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>265.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000851596|SIFON LAVAPLATOS TIPO "P" DE 7"ABELLA G.                                                                                                                                                                       </ns0:Descripcion>
+						<ns0:PrecioUnitario>79.990000</ns0:PrecioUnitario>
+						<ns0:Precio>79.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>71.420000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>8.570000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>79.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="3">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000933734|#KIT GRANDE PARA LAVATRASTOS                                                                                                                                                                                   </ns0:Descripcion>
+						<ns0:PrecioUnitario>124.990000</ns0:PrecioUnitario>
+						<ns0:Precio>124.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>111.600000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>13.390000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>124.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="4">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000001053312|SHAMPOO PIEL SENSIBLE GROOM STAR 480 ML                                                                                                                                                                        </ns0:Descripcion>
+						<ns0:PrecioUnitario>43.990000</ns0:PrecioUnitario>
+						<ns0:Precio>43.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>39.280000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.710000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>43.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="5">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913499|MANG.LAVAMANOS 3/8X1/2 40CM ACERO FOSET                                                                                                                                                                        </ns0:Descripcion>
+						<ns0:PrecioUnitario>29.950000</ns0:PrecioUnitario>
+						<ns0:Precio>29.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>26.740000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.210000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>29.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="6">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913499|MANG.LAVAMANOS 3/8X1/2 40CM ACERO FOSET                                                                                                                                                                        </ns0:Descripcion>
+						<ns0:PrecioUnitario>29.950000</ns0:PrecioUnitario>
+						<ns0:Precio>29.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>26.740000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.210000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>29.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="7">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000001123875|CORTINA BANO NAVIDENA GUIRNALDA BLANCA                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>44.990000</ns0:PrecioUnitario>
+						<ns0:Precio>44.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>40.170000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.820000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>44.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="8">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913499|MANG.LAVAMANOS 3/8X1/2 40CM ACERO FOSET                                                                                                                                                                        </ns0:Descripcion>
+						<ns0:PrecioUnitario>29.950000</ns0:PrecioUnitario>
+						<ns0:Precio>29.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>26.740000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.210000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>29.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="9">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913499|MANG.LAVAMANOS 3/8X1/2 40CM ACERO FOSET                                                                                                                                                                        </ns0:Descripcion>
+						<ns0:PrecioUnitario>29.950000</ns0:PrecioUnitario>
+						<ns0:Precio>29.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>26.740000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.210000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>29.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="10">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000001123875|CORTINA BANO NAVIDENA GUIRNALDA BLANCA                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>44.990000</ns0:PrecioUnitario>
+						<ns0:Precio>44.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>40.170000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.820000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>44.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="11">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913497|CONTRALLAVE ANGULAR 1/2"X3/8" FOSET                                                                                                                                                                            </ns0:Descripcion>
+						<ns0:PrecioUnitario>39.950000</ns0:PrecioUnitario>
+						<ns0:Precio>39.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>35.670000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.280000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>39.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="12">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913497|CONTRALLAVE ANGULAR 1/2"X3/8" FOSET                                                                                                                                                                            </ns0:Descripcion>
+						<ns0:PrecioUnitario>39.950000</ns0:PrecioUnitario>
+						<ns0:Precio>39.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>35.670000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.280000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>39.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="13">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000964746|SET DE 4 INDIVIDUALES 45X30 CMS BEIGE.                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>49.990000</ns0:PrecioUnitario>
+						<ns0:Precio>49.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>44.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>49.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="14">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000964746|SET DE 4 INDIVIDUALES 45X30 CMS BEIGE.                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>49.990000</ns0:PrecioUnitario>
+						<ns0:Precio>49.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>44.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>49.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="15">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000754064|COLLAR DE NYLON 60CMX2.5CM DOG LOVER                                                                                                                                                                           </ns0:Descripcion>
+						<ns0:PrecioUnitario>49.990000</ns0:PrecioUnitario>
+						<ns0:Precio>49.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>44.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>49.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="16">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913497|CONTRALLAVE ANGULAR 1/2"X3/8" FOSET                                                                                                                                                                            </ns0:Descripcion>
+						<ns0:PrecioUnitario>39.950000</ns0:PrecioUnitario>
+						<ns0:Precio>39.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>35.670000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.280000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>39.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="17">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000913497|CONTRALLAVE ANGULAR 1/2"X3/8" FOSET                                                                                                                                                                            </ns0:Descripcion>
+						<ns0:PrecioUnitario>39.950000</ns0:PrecioUnitario>
+						<ns0:Precio>39.950000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>35.670000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.280000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>39.950000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="18">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000898065|LAVAPLATOS MONOMANDO FOSET AERO 49771                                                                                                                                                                          </ns0:Descripcion>
+						<ns0:PrecioUnitario>789.990000</ns0:PrecioUnitario>
+						<ns0:Precio>789.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>705.350000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>84.640000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>789.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="19">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000754064|COLLAR DE NYLON 60CMX2.5CM DOG LOVER                                                                                                                                                                           </ns0:Descripcion>
+						<ns0:PrecioUnitario>49.990000</ns0:PrecioUnitario>
+						<ns0:Precio>49.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>44.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>49.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="20">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000803892|CADENA DE METAL 1.21MX2MM FIERO                                                                                                                                                                                </ns0:Descripcion>
+						<ns0:PrecioUnitario>21.990000</ns0:PrecioUnitario>
+						<ns0:Precio>21.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>19.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>21.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="21">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000000803892|CADENA DE METAL 1.21MX2MM FIERO                                                                                                                                                                                </ns0:Descripcion>
+						<ns0:PrecioUnitario>21.990000</ns0:PrecioUnitario>
+						<ns0:Precio>21.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>19.630000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.360000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>21.990000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="22">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000001072616|LAVATRASTOS DOS FOSAS 7' SS FRANKE                                                                                                                                                                             </ns0:Descripcion>
+						<ns0:PrecioUnitario>1499.000000</ns0:PrecioUnitario>
+						<ns0:Precio>1499.000000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>1338.390000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>160.610000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>1499.000000</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="23">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>000000000001110909|#LAVATRASTOS EMPOTRAR UNA FOSA 80X52CM                                                                                                                                                                         </ns0:Descripcion>
+						<ns0:PrecioUnitario>384.990000</ns0:PrecioUnitario>
+						<ns0:Precio>384.990000</ns0:Precio>
+						<ns0:Descuento>0.000000</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>343.740000</ns0:MontoGravable>
+								<ns0:MontoImpuesto>41.250000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>384.990000</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="407.42" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>3802.42</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>12521337</ns0:NITCertificador>
+				<ns0:NombreCertificador>INFILE, S.A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="252199215" Serie="53D031C4">53D031C4-0F08-412F-BF1F-A01E7EF44312</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-21T16:53:44-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="Signature-7509558b-739c-461d-9dc6-07f8c9a3ebdf">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>fZKdeD4Zewbw1LswniBYuJpgVSkzGPxSGAg5USxkmLo=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-7509558b-739c-461d-9dc6-07f8c9a3ebdf">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>vyKxo9PQf2R7E+6CQNkJs+LHbK1EVgG72SHJkLXIIm4=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="Signature-7509558b-739c-461d-9dc6-07f8c9a3ebdf-sigvalue">Q9xXimLNiGuOd6TcL2tnTkEB35MFYHR1f/AgXPldZ3kGD6StGKUIMrtQ0zQXF3hYCFlkxB5BFSHOCrYZoy/cSJN0u+Flbv+k/IpHXIQdM5doPa+FJhhqUZOdhgUEE/tD6sz00r8TKhVpWJp3vwG+18V3HuS8gX0ZHBiG2RBR5Jo8Z4djjVwXRApG84xA8Y1LWYPJn1Bskf/+YsOW5dBeKrXeTWP0gfnalrjEcf7b/auUNnb52sndM+t0K4HMQQz3kdiSxlDC+7PHDRaL3Cpa53XSolhZHv86SJsDUyHIZfgl9MacVI26CYNwVW0EfbLrNcBtBzUxCtcu3EEQ2LEdvw==</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>MIIDYTCCAkmgAwIBAgIIS7h1GLXxOLwwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJpbnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDcwNDIxMzYyM1oXDTI1MDcwMzIxMzYyM1owKDERMA8GA1UEAwwIMzIzNzU5MTMxEzARBgNVBAoMCnNhdC5nb2IuZ3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgPZuI7UWI2Qv103QndqaQLBPtyG/KwfBcGbKxVFTFZcEM3Pce5yzCKX1Hk9p4u3lqywCIwLi5fkurRAjBU6by8ImgP+zizYOwrlYUxKUoV6KbKGqSsjYBglA5i+aUy02PPe05uPGx3Ei+J+eKezJcayP6tVTuPE4cX1ypMsaGeytCot6sI1Yq2bTFUJ7V7TEw6dg7Cr+dTcD/E7Bl70NRD0mw1+m3p19GH9xJYPuIKnh4RUgKlZhLvy4qpSnL75T+qfBrrDzphrN6MQJ2+Qlm2YagYfQxT+BI3Tiylh3Qu/kCVfB32riSJPULzrzxrD7xVkYHTKdDX++YJNYjfPt7AgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWIJ2jVgosclDBAK01cheai//+EowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBQfvD8d/H6aJEw/RBwaZ/UUe1LO7TAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBABOVDVyNVjA33VjvmyNzd5sYAd0128taNDq3n31jcXK0X8tj1zoMJO8sxmD+2YDCBIp372obdPCazSuLnCjVyQFGi/z2SSwXESEVeo/sgeaI7yzQQeQumh9yQTmMk17uYsXJF7ZyJ0pTJ2WusSlYLxfq+fzFAZAM0OUtyhzS6Cpsua+TNrjnxxqdfkTQkk/s9iU30VoMl6pz76XueEUcM5Z7YGCE6erVwvRO7QNZ+WFTHUA1AB3g+xdNxzQ7wrryczjLAwXbS8PpfBkemH2yIGvKOsgdUQ3LYhQ5mM96NR4LnnPc3M5/GW8oFPil6hJTRX5Pho2rgF/p18ZilSg6qJA=</ns2:X509Certificate>
+				<ns2:X509SubjectName>O=sat.gob.gt, CN=32375913</ns2:X509SubjectName>
+				<ns2:X509SKI>H7w/Hfx+miRMP0QcGmf1FHtSzu0=</ns2:X509SKI>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Id="QualifyingProperties-aa262416-8607-4f02-8897-0a6440a1ae03" Target="#Signature-7509558b-739c-461d-9dc6-07f8c9a3ebdf">
+				<ns3:SignedProperties Id="SignedProperties-Signature-7509558b-739c-461d-9dc6-07f8c9a3ebdf">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-21T16:53:43-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>QRNjj69E6FpavB5wgT/NwV/Xe5nYahRt0v5H3Mhsxz4=</ns2:DigestValue>
+								</ns3:CertDigest>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e-ref0" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>fZKdeD4Zewbw1LswniBYuJpgVSkzGPxSGAg5USxkmLo=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>nV16a/aJ8zFpivJqih2lKiPmlh8x+Dxr+QvtJAYSgDY=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e-sigvalue">
+F4y4RV28Zt56IOsoS5HlE7iV/I3aZAojbnCHZ8HyKLO06gYATEwNnxzoGUKotY41PO//DebO4As5
+EzJt3Ukvd14jhG703gqrRsw78U7TnxIah70n63eF90H9HC6sBDP8Q5y7Pq0quXJs6W5QsjzYDhtq
+MPZy8ppnOeqbrtomxS00r26HAN17o4thFYxNZXfq0iWrNBOBJhiRoWYSzP0QJvZ2BVsmy+8w0j18
+xIjh0dbs98ityBwUck83D9Ht8ohq3021yULmnStLbBMIsJE4jW8axVZvKGB/96p/Io9IpRPu4SR9
+/PX+8xzk/7IQEvozWWE5ORmhAVjPuuP1I/U8cQ==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIJ5zCCB8+gAwIBAgIMQUNHVEkyAAAAAAAYMA0GCSqGSIb3DQEBCwUAMIIBLzEmMCQGA1UEAxYd
+UmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxj
+bGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+EjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEg
+UmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwG
+A1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYD
+VQQGEwJHVDAeFw0yMjA4MTgyMjU4MjZaFw0yNTA4MTgyMjU4MjZaMIIBgDEaMBgGA1UEDQwRUGVy
+c29uYSBKdXLDrWRpY2ExCzAJBgNVBAYTAkdUMR4wHAYDVQQHDBVHVUFURU1BTEEgLyBHVUFURU1B
+TEExOTA3BgNVBAkMMEFWIFJFRk9STUEgMy00OCBaT05BIDkgRURJRklDSU8gQU5FTCBPRklDSU5B
+IDQwMTESMBAGA1UEFBMJMjIwOC0yMjA4MRQwEgYDVQQLDAtQUkVTSURFTkNJQTEPMA0GA1UECgwG
+SU5GSUxFMTMwMQYDVQQMDCpQUkVTSURFTlRFIEVKRUNVVElWTyBZIFJFUFJFU0VOVEFOVEUgTEVH
+QUwxGDAWBgNVBAUTDzE2NTMgMjQ5ODggMDEwMTERMA8GA1UELQwIMTI1MjEzMzcxHzAdBgNVBCoM
+FkdVSUxMRVJNTyBCUkFOIFZBTExFSk8xJjAkBgkqhkiG9w0BCQEWF2dlcmVuY2lhM0BpbmZpbGUu
+Y29tLmd0MRQwEgYDVQQDDAtJTkZJTEUgUy5BLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAK9I8pyUyEeEii1XBRei28usnYvvPnLfSlf6M5DqPvI4rdmAzbtl9mdz8aanij0+QRO95kUW
+g215vG00+rwHWYE7+mz/JsT8AySnD6YVErW5c02eo9FVywurCTRTWQXzK1cRw20bf4kxZxzKaKOM
+MZCFAAlbVRXNbQHo4cCybphWM/9pvB1komxaw7U+VxrTmPnn1eH/n8bZqwrb2dQH21LquMpa2XUw
+DQXzAjILqXtCiS8XNchQQs8Bbo3gEHUiF1ympOuXm3S6JhBlAeQLhLr7D46ZOTiPkrjuya41MJ1k
+AgMU230VyslPDzPWAYPcV5TFq/fxJ82N4fAkPPB7lkECAwEAAaOCA6wwggOoMEAGCCsGAQUFBwEB
+BDQwMjAwBggrBgEFBQcwAYYkaHR0cDovL29jc3AucmVhY2hjb3JlLmNvbS9PQ1NQUFJJU01BMIIB
+UgYDVR0RBIIBSTCCAUWBJ1ByZXN0YWRvciBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2k/boFb
+IGF1dG9yaXphZG8gc2VnP24gcmVzb2x1Y2k/biBOby4gUFNDLTAxLTIwMTQgZW1pdGlkYSBwb3Ig
+ZWwgUlBTQyBkZWwgTWluaXN0ZXJpbyBkZSBFY29ub20/YYFXIGRlIGFjdWVyZG8gYSBsYSBMZXkg
+cGFyYSBlbCByZWNvbm9jaW1pZW50byBkZSBsYXMgY29tdW5pY2FjaW9uZXMgeSBmaXJtYXMgZWxl
+Y3RyP25pY2FzgUsgRGVjcmV0byA0Ny0yMDA4IGRlbCBDb25ncmVzbyBkZSBsYSBSZXA/YmxpY2Eg
+ZGUgR3VhdGVtYWxhIHkgc3UgcmVnbGFtZW50by6BF2dlcmVuY2lhM0BpbmZpbGUuY29tLmd0MFAG
+A1UdHwRJMEcwRaBDoEGGP2h0dHBzOi8vY2EuYWR2YW50YWdlLXNlY3VyaXR5LmNvbS9hY3ByaXNt
+YTAxL2NybC9wcmlzbWEyX2d0LmNybDCCAWcGA1UdIwSCAV4wggFagBQWdf6ZNR0f1d2vT+ArnRvw
+u4xKGqGCATekggEzMIIBLzEmMCQGA1UEAxYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+KjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxjbGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVn
+aXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xEjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMI
+NTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEgUmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVs
+IDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwGA1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFs
+YTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYDVQQGEwJHVIIHQUNHVDJJMTARBglghkgBhvhCAQEE
+BAMCAIAwCwYDVR0PBAQDAgGgMBIGA1UdEwEB/wQIMAYBAQACAQAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4ICAQBlpAuxETjDoeWIEUUbI7u02/wH/pyLNDOf
+i5ts9pWJuttYsIQn7BSRyxlvHIZAzknofllgkVJJebR5yPqSt2eUnq+C7r7iFfmxbzX35azpp1Bh
+MMVyg0qfd5AJAZu6xpNQaP26fVzGh3hMkE/BT4ODTTEskZc/QgUi4rSPOUmHYdmIN+M759Bw3aPV
+/GYr0Sx3fC3T/GuFM0B4mV2PagTAnWeDXGHCuYl8NOWDCbEajDaNu9/LeDTP8c7xwzmlsUb9s2OQ
+8JoCArgRJ/oaf83c29kkkJUb8K2oskzivfPih6ZBiQMpmxHtkI8/rBMWu+41dVcpdlbJLWLkw8Dw
+lR/THP27wq9pNEFaJ3946emsReNGim7hEn0kvoD4Iw+uv36WWHhxYaE8EWGHoY/iqafX1XjIBxtE
+JxqGfVW2Ea9kd488aWM6a2aigQjHKw6i4jLSua4LKnDMkuBM2sJQ4SOOgdbXBYh/N1/aLKDBX+L9
+PX2wQrStkLVidrtx+vGoB4heYonwYyeJSW/fshHC4Ab8M3UP338Hc010XNVKmz4r98j6LYNO/HSP
+0J4DsU4fnsSMPkzL92Z1KPZMS/+d8nSP5tsh69g0ri6r1qOnmHYBc1cvAEgtbVf06mSuK4QPdRu6
+oBd1kmZpnT+8E8S0KNu42vMXPuAVYSKsglZEqJZmYQ==
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e">
+				<ns3:SignedProperties Id="xmldsig-dac12f48-5593-4a2f-bb00-9d8953341e1e-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-21T16:53:44.406-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>rJoY2GmteCNlC8iq09nyoJmmkerIeUqWoCvtO+fGj+Y=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>C=GT,ST=Guatemala,L=Guatemala,2.5.4.17=#13053031303039,STREET=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,2.5.4.45=#13083539333938343835,OU=Guatemala,O=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=#161b736572766963696f616c636c69656e746540707269736d612e6774,CN=Registro Digital Prisma\, S.A.</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>20197860511122673671832862744</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>

@@ -1,0 +1,217 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://uri.etsi.org/01903/v1.3.2#" Version="0.1">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-11T19:39:19-06:00" Tipo="FACT" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="90" CorreoEmisor="" NITEmisor="5365651" NombreComercial="DOMINO PIZZA" NombreEmisor="MAYORPIT, SOCIEDAD ANONIMA">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>19 AVENIDA 2-78   ZONA 11 COLONIA MIRADOR I, LOCAL 101, DISTRITO MIRAFLORES GUATEMALA GUATEMALA</ns0:Direccion>
+						<ns0:CodigoPostal>01011</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>Guatemala</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="HERNNDEZ,FLORES,,KARLA,MARIELA">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>Ciudad</ns0:Direccion>
+						<ns0:CodigoPostal>01001</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>Guatemala</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+					<ns0:Frase CodigoEscenario="1" TipoFrase="2" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>Mediana Clasica Hawaiana</ns0:Descripcion>
+						<ns0:PrecioUnitario>120.0000</ns0:PrecioUnitario>
+						<ns0:Precio>120.0000</ns0:Precio>
+						<ns0:Descuento>64.7100</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>49.3700</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.9200</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>55.2900</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>Grande Clasica Pizza  1 ING</ns0:Descripcion>
+						<ns0:PrecioUnitario>160.0000</ns0:PrecioUnitario>
+						<ns0:Precio>160.0000</ns0:Precio>
+						<ns0:Descuento>86.2900</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>65.8100</ns0:MontoGravable>
+								<ns0:MontoImpuesto>7.9000</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>73.7100</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="13.8200" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>129.00</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>12521337</ns0:NITCertificador>
+				<ns0:NombreCertificador>INFILE, S.A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="3924706557" Serie="FC75872B">FC75872B-E9EE-44FD-A28F-31A4D2D5EE79</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-11T19:49:16-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns1:Signature Id="Signature-fe5c6990-d218-4c06-b288-c9ece12282c2">
+		<ns1:SignedInfo>
+			<ns1:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns1:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns1:Reference URI="#DatosEmision">
+				<ns1:Transforms>
+					<ns1:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns1:Transforms>
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>JkZV+h6eigAEvRHoX4C7EZwk3eb+5QYNKedB8uWVsPM=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-fe5c6990-d218-4c06-b288-c9ece12282c2">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>WZqOBdGQcUM+ldg1dlw1Md15V73UD9Y/8LmPv72SiMM=</ns1:DigestValue>
+			</ns1:Reference>
+		</ns1:SignedInfo>
+		<ns1:SignatureValue Id="Signature-fe5c6990-d218-4c06-b288-c9ece12282c2-sigvalue">B2IljJEys5U6QptysD5lTlQVkb6bp795+k9STvy6j4xg1d2dsNjTPn9rt4dydeUGZR2uz3VJWuAq42dUrVClPe7qM2orseNb8XZuM80vZhbc9J3rq/C/SUkpf60TpaIHoHY9RXSgVNHdyKdtugttLlUiXlSRG1x5wEKDLWNCqAO9yNfrX4aHl/p9I6ZFEPpQ3daeEq1VgROnBBMRH8UcGJpnq5owvWcwnD5jKroBwt27UxPKfKscIAqlrcSULn7buNNmnBJJGVzI1lA9LRcrC3uFSB2RLn14rfoACntL4FBfHDF33h5bz2tI/Hi/yw8LE6gvlXCGZNE8lyW1dTcDAg==</ns1:SignatureValue>
+		<ns1:KeyInfo>
+			<ns1:X509Data>
+				<ns1:X509Certificate>MIIDYDCCAkigAwIBAgIIcR8aTYNZ4V4wDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJpbnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDExMDAyNDEwOFoXDTI1MDEwOTAyNDEwOFowJzEQMA4GA1UEAwwHNTM2NTY1MTETMBEGA1UECgwKc2F0LmdvYi5ndDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKHJkFG3TKXGU1F0YLyAtWjYOBy4CsK5OyyFMYb4Zcge9K/v/c6MshNIt9btcTGVdjN0l37pXE9k5DJddVDKN7W9bdab+DisPA6GzfAZ23LJFYFrARuABRRO8edbAC8N++MLks/0GXvxOVS0Hvh6tgi0P19uLBp6fw3T2VD9tZT0u7+jr7gmf2QgloV0WkomkUocKd1vAOJ57+hAy1TnxkrzZOhBAU+UynOIQsOrjxIsSiLNdl4pSXSYRhVCJ/dOGju4Fk24ZsHKdC6cVMiD4dwGzV/lomlkZHta3mKWVc3Ecnsk4uAhn01brI+H2UHxUKW9UPb1bN9Pcdx67LYh9cECAwEAAaN/MH0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRYgnaNWCixyUMEArTVyF5qL//4SjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFHaqilE8AsDTzNiEHhpmpAIHsjswMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEAhshevwitm6NDBk9+HjqjVoyBbxfARX/FnM3t7tAuCKYnR8zzjVOvjFAS4CmOSBCwEnq5xfX6lG2pcLzF0BWlPf+7RDwwo1Xwl92b7AW9+liHTMPENSUvrbBVi/9m7tjIC371XPYNQd43JTVlZ29d88GEDV30QNiekKMBIHEqQAJbakpqNh4r+RpJHITawNebBcQxNVsoV3kXJVm5STsWX+WvI15Fb9XhcWsFYuH9C3AR/EfsAoIpUFJkkCnbfgJ4EgOmUch65YpKmihjFsXu26LzARpzrko9UzOPvKCvMUErUA3GUEAYiqaPZWxdC+ZGRpYOzxg8G8dMJaTUezt/aA==</ns1:X509Certificate>
+				<ns1:X509SubjectName>O=sat.gob.gt, CN=5365651</ns1:X509SubjectName>
+				<ns1:X509SKI>dqqKUTwCwNPM2IQeGmakAgeyOzA=</ns1:X509SKI>
+			</ns1:X509Data>
+		</ns1:KeyInfo>
+		<ns1:Object>
+			<ns2:QualifyingProperties Id="QualifyingProperties-aa262416-8607-4f02-8897-0a6440a1ae03" Target="#Signature-fe5c6990-d218-4c06-b288-c9ece12282c2">
+				<ns2:SignedProperties Id="SignedProperties-Signature-fe5c6990-d218-4c06-b288-c9ece12282c2">
+					<ns2:SignedSignatureProperties>
+						<ns2:SigningTime>2024-10-11T19:49:15-06:00</ns2:SigningTime>
+						<ns2:SigningCertificate>
+							<ns2:Cert>
+								<ns2:CertDigest>
+									<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns1:DigestValue>FDbDuApPbX/TWc3XlvmhQCaS5CBXX/z625pT7Zc2j3Y=</ns1:DigestValue>
+								</ns2:CertDigest>
+							</ns2:Cert>
+						</ns2:SigningCertificate>
+					</ns2:SignedSignatureProperties>
+				</ns2:SignedProperties>
+			</ns2:QualifyingProperties>
+		</ns1:Object>
+	</ns1:Signature>
+	<ns1:Signature Id="xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff">
+		<ns1:SignedInfo>
+			<ns1:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns1:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns1:Reference Id="xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff-ref0" URI="#DatosEmision">
+				<ns1:Transforms>
+					<ns1:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns1:Transforms>
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>JkZV+h6eigAEvRHoX4C7EZwk3eb+5QYNKedB8uWVsPM=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff-signedprops">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>VzaVMBiap1Bt7wW7xfIGyApy3g3szdBydGLi3igEHSY=</ns1:DigestValue>
+			</ns1:Reference>
+		</ns1:SignedInfo>
+		<ns1:SignatureValue Id="xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff-sigvalue">
+eGiaau6dPauhhxvF5gWT5RWs9BwbLvksj9VJ0+8SMdktZpfXRRfFvqBEA5Y2G4E5SGmjReALkZLj
+GOA4vGjl8Ipx/nREMVzw5LUrIPo489UFg9DBO13Vv6d+NYQiS6IaR6i1hiAU0qRwWyTWeiucJmFI
+g/0m1CQw1D1RoG2ppJoDuS5xLi6+lTosoU5BQlKpvhO2OVXDIH7lMNqpN10xU+03rkTLq12dmvAa
+XYSh+eXekffgrg8nBtmyWa6zIUoV7w7bTi+Cr2bsjMCUftepK1fGbEAGjFLEwQMx6AE9qYGme1La
+CxcHkSKZ2UA4Cl1Vzx8Gi9X4iUiOxhTVVMfyhw==
+</ns1:SignatureValue>
+		<ns1:KeyInfo>
+			<ns1:X509Data>
+				<ns1:X509Certificate>
+MIIJ5zCCB8+gAwIBAgIMQUNHVEkyAAAAAAAYMA0GCSqGSIb3DQEBCwUAMIIBLzEmMCQGA1UEAxYd
+UmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxj
+bGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+EjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEg
+UmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwG
+A1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYD
+VQQGEwJHVDAeFw0yMjA4MTgyMjU4MjZaFw0yNTA4MTgyMjU4MjZaMIIBgDEaMBgGA1UEDQwRUGVy
+c29uYSBKdXLDrWRpY2ExCzAJBgNVBAYTAkdUMR4wHAYDVQQHDBVHVUFURU1BTEEgLyBHVUFURU1B
+TEExOTA3BgNVBAkMMEFWIFJFRk9STUEgMy00OCBaT05BIDkgRURJRklDSU8gQU5FTCBPRklDSU5B
+IDQwMTESMBAGA1UEFBMJMjIwOC0yMjA4MRQwEgYDVQQLDAtQUkVTSURFTkNJQTEPMA0GA1UECgwG
+SU5GSUxFMTMwMQYDVQQMDCpQUkVTSURFTlRFIEVKRUNVVElWTyBZIFJFUFJFU0VOVEFOVEUgTEVH
+QUwxGDAWBgNVBAUTDzE2NTMgMjQ5ODggMDEwMTERMA8GA1UELQwIMTI1MjEzMzcxHzAdBgNVBCoM
+FkdVSUxMRVJNTyBCUkFOIFZBTExFSk8xJjAkBgkqhkiG9w0BCQEWF2dlcmVuY2lhM0BpbmZpbGUu
+Y29tLmd0MRQwEgYDVQQDDAtJTkZJTEUgUy5BLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAK9I8pyUyEeEii1XBRei28usnYvvPnLfSlf6M5DqPvI4rdmAzbtl9mdz8aanij0+QRO95kUW
+g215vG00+rwHWYE7+mz/JsT8AySnD6YVErW5c02eo9FVywurCTRTWQXzK1cRw20bf4kxZxzKaKOM
+MZCFAAlbVRXNbQHo4cCybphWM/9pvB1komxaw7U+VxrTmPnn1eH/n8bZqwrb2dQH21LquMpa2XUw
+DQXzAjILqXtCiS8XNchQQs8Bbo3gEHUiF1ympOuXm3S6JhBlAeQLhLr7D46ZOTiPkrjuya41MJ1k
+AgMU230VyslPDzPWAYPcV5TFq/fxJ82N4fAkPPB7lkECAwEAAaOCA6wwggOoMEAGCCsGAQUFBwEB
+BDQwMjAwBggrBgEFBQcwAYYkaHR0cDovL29jc3AucmVhY2hjb3JlLmNvbS9PQ1NQUFJJU01BMIIB
+UgYDVR0RBIIBSTCCAUWBJ1ByZXN0YWRvciBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2k/boFb
+IGF1dG9yaXphZG8gc2VnP24gcmVzb2x1Y2k/biBOby4gUFNDLTAxLTIwMTQgZW1pdGlkYSBwb3Ig
+ZWwgUlBTQyBkZWwgTWluaXN0ZXJpbyBkZSBFY29ub20/YYFXIGRlIGFjdWVyZG8gYSBsYSBMZXkg
+cGFyYSBlbCByZWNvbm9jaW1pZW50byBkZSBsYXMgY29tdW5pY2FjaW9uZXMgeSBmaXJtYXMgZWxl
+Y3RyP25pY2FzgUsgRGVjcmV0byA0Ny0yMDA4IGRlbCBDb25ncmVzbyBkZSBsYSBSZXA/YmxpY2Eg
+ZGUgR3VhdGVtYWxhIHkgc3UgcmVnbGFtZW50by6BF2dlcmVuY2lhM0BpbmZpbGUuY29tLmd0MFAG
+A1UdHwRJMEcwRaBDoEGGP2h0dHBzOi8vY2EuYWR2YW50YWdlLXNlY3VyaXR5LmNvbS9hY3ByaXNt
+YTAxL2NybC9wcmlzbWEyX2d0LmNybDCCAWcGA1UdIwSCAV4wggFagBQWdf6ZNR0f1d2vT+ArnRvw
+u4xKGqGCATekggEzMIIBLzEmMCQGA1UEAxYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+KjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxjbGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVn
+aXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xEjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMI
+NTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEgUmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVs
+IDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwGA1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFs
+YTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYDVQQGEwJHVIIHQUNHVDJJMTARBglghkgBhvhCAQEE
+BAMCAIAwCwYDVR0PBAQDAgGgMBIGA1UdEwEB/wQIMAYBAQACAQAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4ICAQBlpAuxETjDoeWIEUUbI7u02/wH/pyLNDOf
+i5ts9pWJuttYsIQn7BSRyxlvHIZAzknofllgkVJJebR5yPqSt2eUnq+C7r7iFfmxbzX35azpp1Bh
+MMVyg0qfd5AJAZu6xpNQaP26fVzGh3hMkE/BT4ODTTEskZc/QgUi4rSPOUmHYdmIN+M759Bw3aPV
+/GYr0Sx3fC3T/GuFM0B4mV2PagTAnWeDXGHCuYl8NOWDCbEajDaNu9/LeDTP8c7xwzmlsUb9s2OQ
+8JoCArgRJ/oaf83c29kkkJUb8K2oskzivfPih6ZBiQMpmxHtkI8/rBMWu+41dVcpdlbJLWLkw8Dw
+lR/THP27wq9pNEFaJ3946emsReNGim7hEn0kvoD4Iw+uv36WWHhxYaE8EWGHoY/iqafX1XjIBxtE
+JxqGfVW2Ea9kd488aWM6a2aigQjHKw6i4jLSua4LKnDMkuBM2sJQ4SOOgdbXBYh/N1/aLKDBX+L9
+PX2wQrStkLVidrtx+vGoB4heYonwYyeJSW/fshHC4Ab8M3UP338Hc010XNVKmz4r98j6LYNO/HSP
+0J4DsU4fnsSMPkzL92Z1KPZMS/+d8nSP5tsh69g0ri6r1qOnmHYBc1cvAEgtbVf06mSuK4QPdRu6
+oBd1kmZpnT+8E8S0KNu42vMXPuAVYSKsglZEqJZmYQ==
+</ns1:X509Certificate>
+			</ns1:X509Data>
+		</ns1:KeyInfo>
+		<ns1:Object>
+			<ns2:QualifyingProperties Target="#xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff">
+				<ns2:SignedProperties Id="xmldsig-d1a822a4-95a5-4d55-a064-1f867a0db3ff-signedprops">
+					<ns2:SignedSignatureProperties>
+						<ns2:SigningTime>2024-10-11T19:49:16.163-06:00</ns2:SigningTime>
+						<ns2:SigningCertificate>
+							<ns2:Cert>
+								<ns2:CertDigest>
+									<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns1:DigestValue>rJoY2GmteCNlC8iq09nyoJmmkerIeUqWoCvtO+fGj+Y=</ns1:DigestValue>
+								</ns2:CertDigest>
+								<ns2:IssuerSerial>
+									<ns1:X509IssuerName>C=GT,ST=Guatemala,L=Guatemala,2.5.4.17=#13053031303039,STREET=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,2.5.4.45=#13083539333938343835,OU=Guatemala,O=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=#161b736572766963696f616c636c69656e746540707269736d612e6774,CN=Registro Digital Prisma\, S.A.</ns1:X509IssuerName>
+									<ns1:X509SerialNumber>20197860511122673671832862744</ns1:X509SerialNumber>
+								</ns2:IssuerSerial>
+							</ns2:Cert>
+						</ns2:SigningCertificate>
+					</ns2:SignedSignatureProperties>
+				</ns2:SignedProperties>
+			</ns2:QualifyingProperties>
+		</ns1:Object>
+	</ns1:Signature>
+</ns0:GTDocumento>

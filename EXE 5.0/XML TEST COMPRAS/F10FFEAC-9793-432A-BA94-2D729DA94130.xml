@@ -1,0 +1,182 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://uri.etsi.org/01903/v1.3.2#" Version="0.1">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales Tipo="FACT" FechaHoraEmision="2024-10-17T13:18:06" CodigoMoneda="GTQ" />
+				<ns0:Emisor NITEmisor="2549547K" NombreEmisor="ENVASADO EN LINEA, SOCIEDAD ANONIMA" CodigoEstablecimiento="2" NombreComercial="ENVAISA 2" AfiliacionIVA="GEN">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>KILOMETRO 16 5 CARRETERA A SAN JUAN    ZONA 6 COMUNIDAD MIXCO-06 LOTE 12 BODEGA 12</ns0:Direccion>
+						<ns0:CodigoPostal>01000</ns0:CodigoPostal>
+						<ns0:Municipio>Mixco</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor IDReceptor="44356382" NombreReceptor="HERN?NDEZ,FLORES,,KARLA,MARIELA">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>CIUDAD</ns0:Direccion>
+						<ns0:CodigoPostal>00000</ns0:CodigoPostal>
+						<ns0:Municipio>.</ns0:Municipio>
+						<ns0:Departamento>.</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase TipoFrase="1" CodigoEscenario="1" />
+					<ns0:Frase TipoFrase="2" CodigoEscenario="1" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item NumeroLinea="1" BienOServicio="B">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>AGUA PURIFICADA SCANDIA GAR. PET 5GAL </ns0:Descripcion>
+						<ns0:PrecioUnitario>16</ns0:PrecioUnitario>
+						<ns0:Precio>16</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>14.285714</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.714286</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>16</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="1.7142860000" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>16</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>60010207</ns0:NITCertificador>
+				<ns0:NombreCertificador>G4S DOCUMENTA, S. A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Serie="F10FFEAC" Numero="2543010602">F10FFEAC-9793-432A-BA94-2D729DA94130</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-17T13:18:07-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns1:Signature Id="Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+		<ns1:SignedInfo>
+			<ns1:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns1:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns1:Reference Id="Reference-1dd856b3-a381-40d7-a79e-a3df7a5cb9d7" URI="#DatosEmision">
+				<ns1:Transforms>
+					<ns1:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns1:Transforms>
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>nl58h07zyKYvM6lUDFJawconPjiME2LJ8TAzsPRrKxo=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Id="ReferenceKeyInfo-Signature-0a65bb51-3882-4ba6-b636-5a316c830ded" URI="#KeyInfoId-Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>OqUQzQ/0i44ghwJjQWzIWrby24xhuH40JneGQD0RjPA=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>P4jwE3m34m4VVqDzp5/RUYIWmkualwXGAen77SKlOEc=</ns1:DigestValue>
+			</ns1:Reference>
+		</ns1:SignedInfo>
+		<ns1:SignatureValue Id="SignatureValue-0a65bb51-3882-4ba6-b636-5a316c830ded">SABF1nzSD6h6G6lhK27FOsZrDTl8Li5sAvqi8LhA427TP+RfZjUVB/X95JLMahT+wqMUNXeNfrMMHv/5WNAWBNeUxyc5D0wiepJqWx2yAbU4jSY1e+uuHwnqMsWKigD5DCmYyZsgjyiT4AFDup71ByJCsHkAE9o5bC7AUIlxF0qEAzkBGXqkZU8HiHcp1r1Mh2SFYdahTt/akK+rSEYLtTvqUylV0AsVG4THP4btre3JVwBSx2fpLTJSK/IaoYCcBovIV3lka7my5UMX1nWw/Uxtmc0rhJCFQIjyx4R2gX5wS26iQvNNR87HANbG9I5ZK/oo+7J0UsChu7uWocg0HA==</ns1:SignatureValue>
+		<ns1:KeyInfo Id="KeyInfoId-Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+			<ns1:X509Data>
+				<ns1:X509Certificate>MIIDUjCCAjqgAwIBAgIIO0qelMlgoQgwDQYJKoZIhvcNAQELBQAwKTEMMAoGA1UEAwwDRkVMMQwwCgYDVQQKDANTQVQxCzAJBgNVBAYTAkdUMB4XDTE5MDgxNjE3MjMyOVoXDTIxMDgxNTE3MjMyOVowKDERMA8GA1UEAwwIMjU0OTU0N0sxEzARBgNVBAoMCnNhdC5nb2IuZ3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCSqutwY/MRlPhHf3q+Tt8Y6vYMb2qFVJi2ZmtS83v4Lq1UpBZqCUNhRiZ4wCp0dAUAQspQ9doU9mUuBuqeiQNSsRUPJGo29B5XQuoSzgwo7Dv4Thrsi4FO32/JjRL8tAuFvgc3v+Axm2E8VFaHmKzs/S4ehq4RnVvweqEdvOLarkHf7YJl0xE7rWJQxHoFVx3CtIHSw4Ct9EPxYS5JTQFW+XnA+7Tdv6q39gsMnL5/3ZSGF+hj1yl1EnGD8TTd+UFRhoi8YmtpX+Q4To4zC1UJqfq5zYVenfSRYIAL52ox9jdVVkIAchK93zNKTNM9FQlUgzHLLiXKoZqbtn9sjQjxAgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUc73zilJsM5hZ1/fQrbFzjLRQSgowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBTP7A49WJi1fAXE5N4hnDRyuQMK1zAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBAA3gABoWj5ZuF1bv8Druct6BEPAbkI0Nvdm2IU2PBirWv9bOIf6o/vNn16wOnQQWtUodVx2rwe3fhxRcZfbb74yEODj3YX0/KINU7xIPN/5tSrTzRsLNewFdKxWEv/dftoAFSKbT2Iv8NZuLSoO6Xgl+PjiKjENZG1NAi712XYB+sevg5Qyj8aCtJLQfcgY4PtGCyXHsu1fUqSmYVOIpvKmxW2sTgEiYA7R2dmbVA4HYvoYyow64WirMrOG1+92CRgpsiPCZX4otkolSAAIf2DL4d2aiHH7BZvDyedCYgfI6jcIPANLtVOAuS81SFHn7bnqtFsIjbJmjLJFJYSwqcT0=</ns1:X509Certificate>
+			</ns1:X509Data>
+			<ns1:KeyValue>
+				<ns1:RSAKeyValue>
+					<ns1:Modulus>kqrrcGPzEZT4R396vk7fGOr2DG9qhVSYtmZrUvN7+C6tVKQWaglDYUYmeMAqdHQFAELKUPXaFPZlLgbqnokDUrEVDyRqNvQeV0LqEs4MKOw7+E4a7IuBTt9vyY0S/LQLhb4HN7/gMZthPFRWh5is7P0uHoauEZ1b8HqhHbzi2q5B3+2CZdMRO61iUMR6BVcdwrSB0sOArfRD8WEuSU0BVvl5wPu03b+qt/YLDJy+f92UhhfoY9cpdRJxg/E03flBUYaIvGJraV/kOE6OMwtVCan6uc2FXp30kWCAC+dqMfY3VVZCAHISvd8zSkzTPRUJVIMxyy4lyqGam7Z/bI0I8Q==</ns1:Modulus>
+					<ns1:Exponent>AQAB</ns1:Exponent>
+				</ns1:RSAKeyValue>
+			</ns1:KeyValue>
+		</ns1:KeyInfo>
+		<ns1:Object Id="XadesObjectId-9f2c9435-7a40-4598-bd48-57343315f562">
+			<ns2:QualifyingProperties Id="QualifyingProperties-31f52b38-b133-4b86-be80-2f870ba4af43" Target="#Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+				<ns2:SignedProperties Id="SignedProperties-Signature-0a65bb51-3882-4ba6-b636-5a316c830ded">
+					<ns2:SignedSignatureProperties>
+						<ns2:SigningTime>2024-10-17T13:18:07-06:00</ns2:SigningTime>
+						<ns2:SigningCertificate>
+							<ns2:Cert>
+								<ns2:CertDigest>
+									<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns1:DigestValue>Mzykm2IObRSYcECm2qTmT7cw+iSDycjAnHrOUThJ4eY=</ns1:DigestValue>
+								</ns2:CertDigest>
+								<ns2:IssuerSerial>
+									<ns1:X509IssuerName>C=GT, O=SAT, CN=FEL</ns1:X509IssuerName>
+									<ns1:X509SerialNumber>4272401558385238280</ns1:X509SerialNumber>
+								</ns2:IssuerSerial>
+							</ns2:Cert>
+						</ns2:SigningCertificate>
+					</ns2:SignedSignatureProperties>
+					<ns2:SignedDataObjectProperties>
+						<ns2:DataObjectFormat ObjectReference="#Reference-1dd856b3-a381-40d7-a79e-a3df7a5cb9d7">
+							<ns2:MimeType>text/xml</ns2:MimeType>
+							<ns2:Encoding>UTF-8</ns2:Encoding>
+						</ns2:DataObjectFormat>
+					</ns2:SignedDataObjectProperties>
+				</ns2:SignedProperties>
+			</ns2:QualifyingProperties>
+		</ns1:Object>
+	</ns1:Signature>
+	<ns1:Signature Id="Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+		<ns1:SignedInfo>
+			<ns1:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns1:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns1:Reference Id="Reference-42664288-5e2d-429b-ae34-08655af317e2" URI="#DatosCertificados">
+				<ns1:Transforms>
+					<ns1:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns1:Transforms>
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>0ty6SgTE8+AyU6Yl5Y/NBobcrL0cpojpKjlQF73MVMU=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Id="ReferenceKeyInfo-Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637" URI="#KeyInfoId-Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>XjtFxHOQ+rpKg963+bxf81Bh502qVw6tkcPH583m7Bs=</ns1:DigestValue>
+			</ns1:Reference>
+			<ns1:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+				<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns1:DigestValue>+dRnr0wmmMFFTf5A6BegPgFvUTf/5cZlAPjoYovTzqQ=</ns1:DigestValue>
+			</ns1:Reference>
+		</ns1:SignedInfo>
+		<ns1:SignatureValue Id="SignatureValue-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">fJCow8wrI1oxrersrrXDaHaoI4v3XnRCX22EwXmZC9ByD5IublY5zn+5oP640MJIfC9pWSCX+RddU5qBytcug9XEk9fHZW1gMTlW7WDFeQesGtp4Kc+IouZ+ThxrxprOYyv6xk2uObFMFLennOkPl9XakkjOnoTKWbvFZQRo0wVRmzmIkHs2HluU5/dNAZ/9mYzgYCc7ahJ9r/fdrBDk0lbxKaqPE7/qA2kE6Bs57Ef7Rl6LwxEAflvt5wtCTSKkLAPbOqDmTT5iNzvHupj9gMB5/re1dyUPW2jQEzZqN3TeXPZs4AMLkVNN1OQVcGq64fClY1Q8wBsWtfSerEq/3w==</ns1:SignatureValue>
+		<ns1:KeyInfo Id="KeyInfoId-Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+			<ns1:X509Data>
+				<ns1:X509Certificate>MIIIijCCB3KgAwIBAgIQJZVqzPfP+n1gmw7hqdAktDANBgkqhkiG9w0BAQsFADCBqDEcMBoGA1UECQwTd3d3LmNlcnRpY2FtYXJhLmNvbTEPMA0GA1UEBwwGQk9HT1RBMRkwFwYDVQQIDBBESVNUUklUTyBDQVBJVEFMMQswCQYDVQQGEwJDTzEYMBYGA1UECwwPTklUIDgzMDA4NDQzMy03MRgwFgYDVQQKDA9DRVJUSUNBTUFSQSBTLkExGzAZBgNVBAMMEkFDIFNVQiBDRVJUSUNBTUFSQTAgFw0yMTA1MTEyMzEwMjVaGA8yMDIyMDUxMTIzMTAyNFowggEiMR0wGwYDVQQJDBQxMSBDQUxMRSAwLTY5IFpPTkEgOTESMBAGA1UECAwJR1VBVEVNQUxBMRswGQYDVQQLDBJHNFMgRE9DVU1FTlRBIFMuQS4xDjAMBgNVBAUTBTQ3MDc0MSEwHwYKKwYBBAGBtWMCAxMRTklUIEVOVCAgNjAwMTAyMDcxJzAlBgNVBAoMHkc0UyBET0NVTUVOVEEgU09DSUVEQUQgQU5PTklNQTESMBAGA1UEBwwJR1VBVEVNQUxBMSowKAYJKoZIhvcNAQkBFhtBUk1BTkRPLkdPTlpBTEVaQEdULkc0Uy5DT00xCzAJBgNVBAYTAkdUMScwJQYDVQQDDB5HNFMgRE9DVU1FTlRBIFNPQ0lFREFEIEFOT05JTUEwggEgMA0GCSqGSIb3DQEBAQUAA4IBDQAwggEIAoIBAQCbrtW8VKRaHbZ9BPcjzSOtJ52PmXTHo6Vznh6JI+M3NdSNwx/a4jMydHXY8hSzJIaFgq0BStuLQrpn1r9uv7OmrrJvUz8DhO+P3W2SRFB4+pa8d1vwztUUH5Hx0WmKKZfkbLGoAdH6yukyOfctKXpugAk/YBwks/RucILax965Z+/tMIcYspytvZJ4pVPOkbN2gIDsRYwStpsAuDPLJVurh4foZc52jFhpNwX1GAyIiSxTUbFjoGaqt0wiIusM9kvJAtY1l1sy36b8GBABIAOicOVaUAVNu5NRaRgureyuWgqy1uDQD233yA4A55Lisar5I3bGQzgGMURBFxxN+4B9AgEDo4IEMTCCBC0wNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5jZXJ0aWNhbWFyYS5jbzAmBgNVHREEHzAdgRtBUk1BTkRPLkdPTlpBTEVaQEdULkc0Uy5DT00wggJoBgNVHSAEggJfMIICWzCB6QYLKwYBBAGBtWMyAQgwgdkwewYIKwYBBQUHAgEWb2h0dHA6Ly93d3cuZmlybWEtZS5jb20uZ3QvZG9jcy9FVC1GRS0wMV9WM19FU1BFQ0lGSUNBQ0lPTl9URUNOSUNBX0RFQ0xBUkFDSU9OX0RFX1BSQUNUSUNBU19ERV9DRVJUSUZJQ0FDSU9OLnBkZjBaBggrBgEFBQcCAjBOGkxMaW1pdGFjaW9uZXMgZGUgZ2FyYW507WFzIGRlIGVzdGUgY2VydGlmaWNhZG8gc2UgcHVlZGVuIGVuY29udHJhciBlbiBsYSBEUEMuMD4GCysGAQQBgbVjCgoBMC8wLQYIKwYBBQUHAgIwIRofRGlzcG9zaXRpdm8gZGUgaGFyZHdhcmUgKFRva2VuKTCCASsGCysGAQQBgbVjMmV4MIIBGjCCARYGCCsGAQUFBwICMIIBCBqCAQRDQU1BUkEgREUgQ09NRVJDSU8gREUgR1VBVEVNQUxBIE5JVCAzNTE1OS04LCBpbmZvQGZpcm1hLWUuY29tLmd0LCBBdXRvcml6YWRvIHNlZ/puIHJlc29sdWNp824gTm8uIFBTQy0wMS0yMDEyIGRlbCBSZWdpc3RybyBkZSBQcmVzdGFkb3JlcyBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2nzbiBkZWwgTWluaXN0ZXJpbyBkZSBFY29ub23tYSBkZSBsYSBSZXD6YmxpY2EgZGUgR3VhdGVtYWxhIGVtaXRpZGEgZWwgMjMgZGUgZW5lcm8gZGVsIGHxbyAyMDEyLjAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwID+DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBTY2o8Hc+77AoL/wgpEIivi/BVyrzAfBgNVHSMEGDAWgBSAccwyklh19AMhOqu+HNOP8iAV7TCB1wYDVR0fBIHPMIHMMIHJoIHGoIHDhl5odHRwOi8vd3d3LmNlcnRpY2FtYXJhLmNvbS9yZXBvc2l0b3Jpb3Jldm9jYWNpb25lcy9hY19zdWJvcmRpbmFkYV9jZXJ0aWNhbWFyYV8yMDE0LmNybD9jcmw9Y3JshmFodHRwOi8vbWlycm9yLmNlcnRpY2FtYXJhLmNvbS9yZXBvc2l0b3Jpb3Jldm9jYWNpb25lcy9hY19zdWJvcmRpbmFkYV9jZXJ0aWNhbWFyYV8yMDE0LmNybD9jcmw9Y3JsMA0GCSqGSIb3DQEBCwUAA4IBAQCs/M9Re2XkBHpi4/N6P6ydglTnXODL8nlFiBjbwMVAtIMRQbrbCfqJzzJf+dnp82rlQQp2zfDlXDI5UK56OzECqcCfYzgdCWtOK77tPH5Rxl+Qxve/FGoZ/W8HL9qBs9JahBR/ej5vb1m6+OAgCisWXXd8HtX/3mXARagSH1PfxmCMCO2Yvq+466MRL64ZfM1lFHNyRtM7luA4RVnlqm6m6f1R8IXTfDwteOsjecpMKfP2N5pHbGbPLB3EyB4YAgHzAjY3ITihROO6EcKb0+zbb/w+Hpfo4Yi5KpM1FhAUzCaQoxp/Kh25A4xsta/NOXz8J19LvePczfzzBCr0e/Ik</ns1:X509Certificate>
+			</ns1:X509Data>
+			<ns1:KeyValue>
+				<ns1:RSAKeyValue>
+					<ns1:Modulus>m67VvFSkWh22fQT3I80jrSedj5l0x6Olc54eiSPjNzXUjcMf2uIzMnR12PIUsySGhYKtAUrbi0K6Z9a/br+zpq6yb1M/A4Tvj91tkkRQePqWvHdb8M7VFB+R8dFpiimX5GyxqAHR+srpMjn3LSl6boAJP2AcJLP0bnCC2sfeuWfv7TCHGLKcrb2SeKVTzpGzdoCA7EWMErabALgzyyVbq4eH6GXOdoxYaTcF9RgMiIksU1GxY6BmqrdMIiLrDPZLyQLWNZdbMt+m/BgQASADonDlWlAFTbuTUWkYLq3srloKstbg0A9t98gOAOeS4rGq+SN2xkM4BjFEQRccTfuAfQ==</ns1:Modulus>
+					<ns1:Exponent>Aw==</ns1:Exponent>
+				</ns1:RSAKeyValue>
+			</ns1:KeyValue>
+		</ns1:KeyInfo>
+		<ns1:Object Id="XadesObjectId-07be393e-f8ca-4b53-bdbb-1c3934a02aa1">
+			<ns2:QualifyingProperties Id="QualifyingProperties-2829d415-0e6f-41d4-88d9-d4a0ff058259" Target="#Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+				<ns2:SignedProperties Id="SignedProperties-Signature-fdfd5a6c-95f0-4646-a0d1-eaf3fcd8f637">
+					<ns2:SignedSignatureProperties>
+						<ns2:SigningTime>2024-10-17T13:18:07-06:00</ns2:SigningTime>
+						<ns2:SigningCertificate>
+							<ns2:Cert>
+								<ns2:CertDigest>
+									<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns1:DigestValue>mgOkwQvFmpsIGyHMCvjIU6VCLDKeDni2wk4CcU3Wpgs=</ns1:DigestValue>
+								</ns2:CertDigest>
+								<ns2:IssuerSerial>
+									<ns1:X509IssuerName>CN=AC SUB CERTICAMARA, O=CERTICAMARA S.A, OU=NIT 830084433-7, C=CO, S=DISTRITO CAPITAL, L=BOGOTA, STREET=www.certicamara.com</ns1:X509IssuerName>
+									<ns1:X509SerialNumber>49957254250620944576039073525621859508</ns1:X509SerialNumber>
+								</ns2:IssuerSerial>
+							</ns2:Cert>
+						</ns2:SigningCertificate>
+					</ns2:SignedSignatureProperties>
+					<ns2:SignedDataObjectProperties>
+						<ns2:DataObjectFormat ObjectReference="#Reference-42664288-5e2d-429b-ae34-08655af317e2">
+							<ns2:MimeType>text/xml</ns2:MimeType>
+							<ns2:Encoding>UTF-8</ns2:Encoding>
+						</ns2:DataObjectFormat>
+					</ns2:SignedDataObjectProperties>
+				</ns2:SignedProperties>
+			</ns2:QualifyingProperties>
+		</ns1:Object>
+	</ns1:Signature>
+</ns0:GTDocumento>
