@@ -1,0 +1,239 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns1="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" Version="0.1">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-18T12:20:00-06:00" Tipo="FCAM" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="4" CorreoEmisor="" NITEmisor="4693582" NombreComercial="Centro America" NombreEmisor="Capeli Internacional  S. A.">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>31 Avenida A 5-64 zona 7 Colonia Centro America, Guatemala, Guatemala</ns0:Direccion>
+						<ns0:CodigoPostal>0000</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>Guatemala</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor IDReceptor="44356382" NombreReceptor="KARLA MARIELA HERNANDEZ FLORES">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>Calzada Roosvelth 20-91 zona 11 Colonia miraflores</ns0:Direccion>
+						<ns0:CodigoPostal>0000</ns0:CodigoPostal>
+						<ns0:Municipio>GUATEMALA</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+					<ns0:Frase CodigoEscenario="1" TipoFrase="2" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>24</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>UNIQUE ONE ESTUCHE UO MASK 150 ML MAS SUPER MASK 300 ML</ns0:Descripcion>
+						<ns0:PrecioUnitario>167</ns0:PrecioUnitario>
+						<ns0:Precio>4008</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>3578.571429</ns0:MontoGravable>
+								<ns0:MontoImpuesto>429.428571</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>4008</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="429.428571" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>4008</ns0:GranTotal>
+				</ns0:Totales>
+				<ns0:Complementos>
+					<ns0:Complemento IDComplemento="AbonosFacturaCambiaria" NombreComplemento="AbonosFacturaCambiaria" URIComplemento="FCAM">
+						<ns1:AbonosFacturaCambiaria Version="1">
+							<ns1:Abono>
+								<ns1:NumeroAbono>1</ns1:NumeroAbono>
+								<ns1:FechaVencimiento>2024-11-17</ns1:FechaVencimiento>
+								<ns1:MontoAbono>4008</ns1:MontoAbono>
+							</ns1:Abono>
+						</ns1:AbonosFacturaCambiaria>
+					</ns0:Complemento>
+				</ns0:Complementos>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>50510231</ns0:NITCertificador>
+				<ns0:NombreCertificador>Megaprint, S.A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="913786191" Serie="69150D1E">69150D1E-3677-454F-A1A1-4603BDAFE238</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-18T12:20:33.611-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="Reference-49611259-5b9c-46ff-aad1-5cf8006b92c9" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>Fegj/UmUG5ecXQHb1qi8aGz6bLsvk4pDkw0Pqf8Fm+8=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>WhDymV1+kvOqGLwDO6fJI5DaYOFExXs8munWxD+6Woo=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>l0A8yx/Pq2wtFIwzGaBhfrGmOeRTDxiyamLGcg1+nO8=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="SignatureValue-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">O2O9myKfEgkWvXqRg0tNTIpK4AYkb2sJ6aEoaXmv1uMX9eDgUKNHuG/kC0et1avzv2LHNrkzWRIF4RrxQynJSkbPOQ90tTkem7oUEjRgxo0kkO2CfNHC9f0HcchAnv9+R6OYfs9J0fEtr6Iidt0jfKN2MRKKPrrpR1QLXspxVhrtvVRw7dA1uIbOz8zH7m08fT67e2+jkbXpLcTkaOB/7XDY1dygi90EkpIWB4KsQKIwrxDWxdei+XSNy3GvMPZ9dRRxJqzcCzZr53VPPBUi4ZK7zn6WBNg87weOKgX5XtmFVW5ZzOYSqWhLqBP9ZlmkTQnxmiVphcIDo33h6YXZeg==</ns2:SignatureValue>
+		<ns2:KeyInfo Id="KeyInfoId-Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+			<ns2:X509Data>
+				<ns2:X509Certificate>MIIDYDCCAkigAwIBAgIIYHDdfLAx79YwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJpbnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMTEzMDAyNTg0NFoXDTI1MTEyOTAyNTg0NFowJzEQMA4GA1UEAwwHNDY5MzU4MjETMBEGA1UECgwKc2F0LmdvYi5ndDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5PoGfDgUWpC7i5qZsJiiKH4yorB6yIigUZxtV/V2yiROy5YAq/R8fp2wpiMFD4LtsgUJhhkzoFUXWHqBY7m2KFTyr0w06GlZ0s5n063R+ZTEbslMI0qGAuOIkPjo9+ePNZBJwcapE07KnjWXF7Jb7lDOeA6jDkrAj+m3SqXFQVQWbuu62jVIP9siXXh5PWRc6LVT9Ux/Z6Czh5DggW1xvhE5bNPjkRD9r6rZQec/WVAW6yYZcOg9ley1KQwEJyfoNF+8BjiWi3ghEIGAyQYQ4gJ2DeOuZY4XcsdNJN28gpCOxT6on+LkMuTL0908qmUtws1swA773u6g/ZLZyRUhsCAwEAAaN/MH0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRYgnaNWCixyUMEArTVyF5qL//4SjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFM1rm0V9j2HQPuLu7FE91JUO/6MGMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEAjgbIpUpPuiMFMRKS1wNvoS3dQryFx7pfqoIDmaWdK9PdW+hkgVk9o6FV3k8THbkmDe1nMrai55kBuO/8Suj5GRK7xWTOjCyecWDCI0UpyG5tiNoRCZXUmc7s6cqrrJLYDiVNj9BnqrZBw9EqOC0eeVqARxDcJPLpA+nOfKHzp8BrZBZ4bpy0nX/2QkXd8ZQYFZcyuBGWIf5n2B0efhPNVNTmMrLuP6JhbBexhTKFXOjmFexGWZo+CzWZVi/OuWs321xq4YBqMLJfGLO4YnA5V33cjjNn4PbdWFUZ75/BruVBEorOjI8chw04/vPFKkbP0+DVl4XT4TLJAWQUN+OQ1g==</ns2:X509Certificate>
+			</ns2:X509Data>
+			<ns2:KeyValue>
+				<ns2:RSAKeyValue>
+					<ns2:Modulus>vk+gZ8OBRakLuLmpmwmKIofjKisHrIiKBRnG1X9XbKJE7LlgCr9Hx+nbCmIwUPgu2yBQmGGTOgVRdYeoFjubYoVPKvTDToaVnSzmfTrdH5lMRuyUwjSoYC44iQ+Oj35481kEnBxqkTTsqeNZcXslvuUM54DqMOSsCP6bdKpcVBVBZu67raNUg/2yJdeHk9ZFzotVP1TH9noLOHkOCBbXG+ETls0+OREP2vqtlB5z9ZUBbrJhlw6D2V7LUpDAQnJ+g0X7wGOJaLeCEQgYDJBhDiAnYN465ljhdyx00k3byCkI7FPqif4uQy5MvT3TyqZS3CzWzADvve7qD9ktnJFSGw==</ns2:Modulus>
+					<ns2:Exponent>AQAB</ns2:Exponent>
+				</ns2:RSAKeyValue>
+			</ns2:KeyValue>
+		</ns2:KeyInfo>
+		<ns2:Object Id="XadesObjectId-5bf170c4-da35-42fb-ace4-c38f99828ce4">
+			<ns3:QualifyingProperties Id="QualifyingProperties-16aaf8d6-19d6-401b-aa6a-2701daa929d4" Target="#Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+				<ns3:SignedProperties Id="SignedProperties-Signature-b247d9af-2ac8-4b1b-9436-b56b9e8be2da">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-18T12:19:33-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>MDEVoaW64MH8+dPBP9IyKKJ9qRhUdyxsAICT2o48E6w=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>6949297752634421206</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+					<ns3:SignedDataObjectProperties>
+						<ns3:DataObjectFormat ObjectReference="#Reference-49611259-5b9c-46ff-aad1-5cf8006b92c9">
+							<ns3:MimeType>text/xml</ns3:MimeType>
+							<ns3:Encoding>UTF-8</ns3:Encoding>
+						</ns3:DataObjectFormat>
+					</ns3:SignedDataObjectProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43-ref0" URI="#DatosCertificados">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>T2AS3M/HyNDmgANGC+hkN5xTH+pZATcRNFglyV9WbwQ=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43-signedprops">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>O3m9IpXGt03cv7enzeP4s4rQOkiYCpb0FjiiFXmw3bc=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43-sigvalue">
+rNyX8nTMaSczKmQ5kUWPq7umg1m4XVzc8keCFNS3L8lpMYLOKkGCZuU2IjrOQuIiXbI2xw/zNurK
+PGIlz3ASrosRk/95yPFKoOpDvge8LRfgl1C/lTuo6So88CyzH8CKw0Vq4CrzQ27DM+w2xLGfXDY8
+wUjDZGPAODhX96NtC4KLxQkOAaVLWMFoEZAnyPki/16AdCgspO256mCsWbtX5uxWJj07rlyYQwC7
+6U0q/dkyJJsGwCSW4v/AbQkowYfCDjv32IIuegy7tBqpjoUwfTLPj+lV5TvGCyz3hOrTuqyS7/Hh
+Z8ZY1du4JmgKZUSY13nitlvJH66DIs1TiOaYEw==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIKTTCCCDWgAwIBAgIMQUNHVEkyAAAAAAtAMA0GCSqGSIb3DQEBCwUAMIIBLzEmMCQGA1UEAxYd
+UmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxj
+bGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+EjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEg
+UmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwG
+A1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYD
+VQQGEwJHVDAeFw0yMzA2MTIxNzQwMjVaFw0yNTA0MjgxNzQwMjVaMIIB4DElMCMGA1UEAwwcTWVn
+YXByaW50LCBTb2NpZWRhZCBBbsOzbmltYTEpMCcGCSqGSIb3DQEJARYad2lsbHlwYWl6QGdydXBv
+b255eC5jb20uZ3QxETAPBgNVBC0MCDUwNTEwMjMxMRgwFgYDVQQFDA8xODIzIDEzNDE3IDAxMDEx
+NTAzBgNVBAwMLEdlcmVudGUgQWRtaW5pc3RyYXRpdm8geSBSZXByZXNlbnRhbnRlIExlZ2FsMRMw
+EQYDVQQKDApNZWdhcHJpbnQgMREwDwYDVQQLDAhHZXJlbmNpYTEeMBwGA1UEBwwVU2FudGEgQ2F0
+YXJpbmEgUGludWxhMREwDwYDVQQUDAgyMzI5NDgwMDFZMFcGA1UECQxQS2lsb21ldHJvIDkuNSBD
+YXJyZXRlcmEgYSBFbCBTYWx2YWRvciBDQS0wMSBUb3JyZSBUaWdvIFNlZ3VuZG8gTml2ZWwgb2Zp
+Y2luYSAyIEExEjAQBgNVBAYMCUd1YXRlbWFsYTEzMDEGA1UEDQwqQ2VydGlmaWNhZG8gRGlnaXRh
+bCBwYXJhIHBlcnNvbmEganVyw61kaWNhMSkwJwYDVQQqDCBHdWlsbGVybW8gRXJuZXN0byAgUGFp
+eiBHaWxsaW9saTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALGFnJBsSxBDj/oVdQDc
+wOkMok2K47Xl1cuQChODp05v1xA9F+SWLKgQtnh0qMypsM9VQf0SiKrhKzNUnWJUoDFt6NLdd3Xu
+tZ9lQ8KcE6ifGGBbNhWaBgX8vFcWz0rnFd2qtRI6TrKh0t/JybzBKS3mf9KqhYTXxPcpfx5bhUWi
+L9ekXWI5ylD2bphMbzu8C+4tXkbfUjuSLcES+xTsWwvjGjiU6aS1ewwiFQRPUBKvWnlnAMCmryZd
+Z0QBf6w8gfoqwY183+LPk2cW8myvb2Q0JK/8UXSlNMGWBJhERuq5MspbHtlYHWPAsbdCGlg1ux+T
+/HgwmSnnLqmSnE5t5DkCAwEAAaOCA7IwggOuMEAGCCsGAQUFBwEBBDQwMjAwBggrBgEFBQcwAYYk
+aHR0cDovL29jc3AucmVhY2hjb3JlLmNvbS9PQ1NQUFJJU01BMIIBWAYDVR0RBIIBTzCCAUuBJ1By
+ZXN0YWRvciBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2k/boFbIGF1dG9yaXphZG8gc2VnP24g
+cmVzb2x1Y2k/biBOby4gUFNDLTAxLTIwMTQgZW1pdGlkYSBwb3IgZWwgUlBTQyBkZWwgTWluaXN0
+ZXJpbyBkZSBFY29ub20/YYFXIGRlIGFjdWVyZG8gYSBsYSBMZXkgcGFyYSBlbCByZWNvbm9jaW1p
+ZW50byBkZSBsYXMgY29tdW5pY2FjaW9uZXMgeSBmaXJtYXMgZWxlY3RyP25pY2FzgU4gRGVjcmV0
+byA0Ny0yMDA4IGRlbCBDb25ncmVzbyBkZSBsYSBSZXA/YmxpY2EgZGUgR3VhdGVtYWxhIHkgc3Ug
+cmVnbGFtZW50by4JCQmBGndpbGx5cGFpekBncnVwb29ueXguY29tLmd0MFAGA1UdHwRJMEcwRaBD
+oEGGP2h0dHBzOi8vY2EuYWR2YW50YWdlLXNlY3VyaXR5LmNvbS9hY3ByaXNtYTAxL2NybC9wcmlz
+bWEyX2d0LmNybDCCAWcGA1UdIwSCAV4wggFagBQWdf6ZNR0f1d2vT+ArnRvwu4xKGqGCATekggEz
+MIIBLzEmMCQGA1UEAxYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0B
+CQEWG3NlcnZpY2lvYWxjbGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRh
+bCBQcmlzbWEsIFMuQS4xEjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBD
+BgNVBAkWPEF2ZW5pZGEgUmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBP
+ZmljaW5hIDUwMzEOMAwGA1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJ
+R3VhdGVtYWxhMQswCQYDVQQGEwJHVIIHQUNHVDJJMTARBglghkgBhvhCAQEEBAMCAIAwCwYDVR0P
+BAQDAgGgMBIGA1UdEwEB/wQIMAYBAQACAQAwHQYDVR0lBBYwFAYIKwYBBQUHAwQGCCsGAQUFBwMC
+MA0GCSqGSIb3DQEBCwUAA4ICAQAiKsFMoRHkfsFPRQKO5zlvaory5E6khC8qMcl+9NXrHcIam2N3
+pWt2DvRSYfFmt/YUoQN9AdTEjY6mWFqHjmX6lDWMjfsWNcoJcwhmTWVieGNoVM8acf/YGbCSQ+55
+q7xzyqdcK/Xxmod93N+LSwCiQ1Q/KfvrTRxR3yqqk/Y2MsRtXPSHP9bvIVbYTtfEIv9YQgBnVec2
+zXDllX2EFE+1Ww5ou0PNVR4aNZsslAPjf9Z2SzbVqO/jmz8m/LoJD8XAbBZgbrA2aI3iFGkySsEM
+H61UEB+63qwb1qO35ojqscswBqewF3CfjVtdOCY6YsXNLNFjcH1FNeStUnZnK2osYkZ/u/SyTyKv
+8vA73bQ6Im8b7FaBWe/miRPC8z8Hiz3o2VC3a0R/LivUhlfheo2/tKpY2NftHfz+Mkpedj1xVYpr
+ZJ7U+RKfmJ/RTrhlqw/Svqt0SdthUcLY7NtUyhmO185yj2HbNIl+phG/DhCPy33bv1Ki1t4Z4DA+
+hArJ158oK8iwDFm7JgKgOhLi2WWWtbG5PPnvwLe4nSUrH6OmGI/3ypBmvdqv+vcDe9R5lPlNgY/8
+etF7FZ77aixVh+IUW0PkKwBzdyuAgTuBdatDHsUHVKZ7aV1EuN7+g6dGZzqk7eoT74uu1pytzbD4
+Lg5+MGH8OABslvHD667KkahS3g==
+</ns2:X509Certificate>
+				<ns2:X509SubjectName>givenName=Guillermo Ernesto  Paiz Gillioli,description=Certificado Digital para persona jur?dica,c=Guatemala,street=Kilometro 9.5 Carretera a El Salvador CA-01 Torre Tigo Segundo Nivel oficina 2 A,telephoneNumber=23294800,l=Santa Catarina Pinula,ou=Gerencia,o=Megaprint\ ,title=Gerente Administrativo y Representante Legal,serialNumber=1823 13417 0101,x500UniqueIdentifier=50510231,1.2.840.113549.1.9.1=willypaiz@grupoonyx.com.gt,cn=Megaprint\, Sociedad An?nima</ns2:X509SubjectName>
+				<ns2:X509IssuerSerial>
+					<ns2:X509IssuerName>c=GT,st=Guatemala,l=Guatemala,postalCode=01009,street=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,x500UniqueIdentifier=59398485,ou=Guatemala,o=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=servicioalcliente@prisma.gt,cn=Registro Digital Prisma\, S.A.</ns2:X509IssuerName>
+					<ns2:X509SerialNumber>20197860511122673671832865600</ns2:X509SerialNumber>
+				</ns2:X509IssuerSerial>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43">
+				<ns3:SignedProperties Id="xmldsig-d5e9762c-67e4-4245-a44d-68f6c3bbba43-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-18T12:20:33.631-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>amdE9GUdpsR7EGCWJJcI9536r0tvlwOeR4svuUfa/ag=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>c=GT,st=Guatemala,l=Guatemala,postalCode=01009,street=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,x500UniqueIdentifier=59398485,ou=Guatemala,o=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=servicioalcliente@prisma.gt,cn=Registro Digital Prisma\, S.A.</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>20197860511122673671832865600</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>

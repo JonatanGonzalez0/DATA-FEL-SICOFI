@@ -1,0 +1,989 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0 GT_Documento-0.2.1.xsd">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-13T12:11:20.967-06:00" Tipo="FACT" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="4" CorreoEmisor="" NITEmisor="7378106" NombreComercial="SUPERTIENDA PAIZ MEGACENTRO" NombreEmisor="OPERADORA DE TIENDAS, SOCIEDAD ANONIMA">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>CALZADA ROOSEVELT 29-60  ZONA 7 LOCAL 1, 4 Y 5 CENTRO COMERCIAL MEGACENTRO </ns0:Direccion>
+						<ns0:CodigoPostal>01000</ns0:CodigoPostal>
+						<ns0:Municipio>GUATEMALA</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="HERN?NDEZ,FLORES,,KARLA,MARIELA">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>.</ns0:Direccion>
+						<ns0:CodigoPostal>00100</ns0:CodigoPostal>
+						<ns0:Municipio> </ns0:Municipio>
+						<ns0:Departamento> </ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+					<ns0:Frase CodigoEscenario="1" TipoFrase="2" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>POLLOREY PE</ns0:Descripcion>
+						<ns0:PrecioUnitario>31.5</ns0:PrecioUnitario>
+						<ns0:Precio>31.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>28.13</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.37</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>31.5</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>GKREM 350ML</ns0:Descripcion>
+						<ns0:PrecioUnitario>35.75</ns0:PrecioUnitario>
+						<ns0:Precio>35.75</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>31.92</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.83</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>35.75</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="3">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>CALVO AGUA</ns0:Descripcion>
+						<ns0:PrecioUnitario>11.95</ns0:PrecioUnitario>
+						<ns0:Precio>23.9</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>21.34</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.56</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>23.9</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="4">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>HUEVO DY 60U</ns0:Descripcion>
+						<ns0:PrecioUnitario>82.9</ns0:PrecioUnitario>
+						<ns0:Precio>82.9</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>74.02</ns0:MontoGravable>
+								<ns0:MontoImpuesto>8.88</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>82.9</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="5">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>DUCAL FRIJOL</ns0:Descripcion>
+						<ns0:PrecioUnitario>15.65</ns0:PrecioUnitario>
+						<ns0:Precio>15.65</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>13.97</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.68</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15.65</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="6">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>TOST BOC2</ns0:Descripcion>
+						<ns0:PrecioUnitario>15.95</ns0:PrecioUnitario>
+						<ns0:Precio>15.95</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>14.24</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.71</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15.95</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="7">
+						<ns0:Cantidad>3.25</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PECHUGA DESH</ns0:Descripcion>
+						<ns0:PrecioUnitario>31.901539</ns0:PrecioUnitario>
+						<ns0:Precio>103.68</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>92.57</ns0:MontoGravable>
+								<ns0:MontoImpuesto>11.11</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>103.68</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="8">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>SULA NARANJA</ns0:Descripcion>
+						<ns0:PrecioUnitario>21.5</ns0:PrecioUnitario>
+						<ns0:Precio>43</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>38.39</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.61</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>43</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="9">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>COCIDO BANDE</ns0:Descripcion>
+						<ns0:PrecioUnitario>15</ns0:PrecioUnitario>
+						<ns0:Precio>15</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>13.39</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.61</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="10">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>SOPA POLLO</ns0:Descripcion>
+						<ns0:PrecioUnitario>5.35</ns0:PrecioUnitario>
+						<ns0:Precio>10.7</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>9.55</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.15</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>10.7</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="11">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>NONGSH 5PACK</ns0:Descripcion>
+						<ns0:PrecioUnitario>46.65</ns0:PrecioUnitario>
+						<ns0:Precio>46.65</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>41.65</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>46.65</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="12">
+						<ns0:Cantidad>1.93</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>BROCOLI ENTE</ns0:Descripcion>
+						<ns0:PrecioUnitario>6.601036</ns0:PrecioUnitario>
+						<ns0:Precio>12.74</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>11.37</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.37</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>12.74</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="13">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PAN EUROPA</ns0:Descripcion>
+						<ns0:PrecioUnitario>24.1</ns0:PrecioUnitario>
+						<ns0:Precio>24.1</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>21.52</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.58</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>24.1</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="14">
+						<ns0:Cantidad>1.03</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>CAPISTRANO P</ns0:Descripcion>
+						<ns0:PrecioUnitario>59</ns0:PrecioUnitario>
+						<ns0:Precio>60.77</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>54.26</ns0:MontoGravable>
+								<ns0:MontoImpuesto>6.51</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>60.77</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="15">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>GALLETA</ns0:Descripcion>
+						<ns0:PrecioUnitario>13.25</ns0:PrecioUnitario>
+						<ns0:Precio>13.25</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>11.83</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.42</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>13.25</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="16">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PEREJIL MANO</ns0:Descripcion>
+						<ns0:PrecioUnitario>6.1</ns0:PrecioUnitario>
+						<ns0:Precio>6.1</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>5.45</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.65</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>6.1</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="17">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>TORTILLAS BI</ns0:Descripcion>
+						<ns0:PrecioUnitario>14</ns0:PrecioUnitario>
+						<ns0:Precio>14</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>12.5</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.5</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>14</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="18">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PASTA NATURA</ns0:Descripcion>
+						<ns0:PrecioUnitario>9.8</ns0:PrecioUnitario>
+						<ns0:Precio>19.6</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>17.5</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.1</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>19.6</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="19">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>GTA. POZUELO</ns0:Descripcion>
+						<ns0:PrecioUnitario>24.55</ns0:PrecioUnitario>
+						<ns0:Precio>24.55</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>21.92</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.63</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>24.55</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="20">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>COCA COLA</ns0:Descripcion>
+						<ns0:PrecioUnitario>27.5</ns0:PrecioUnitario>
+						<ns0:Precio>27.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>24.55</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.95</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>27.5</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="21">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>AJOS RED</ns0:Descripcion>
+						<ns0:PrecioUnitario>4.9</ns0:PrecioUnitario>
+						<ns0:Precio>4.9</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>4.38</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.52</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>4.9</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="22">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>MARINEL FRES</ns0:Descripcion>
+						<ns0:PrecioUnitario>22</ns0:PrecioUnitario>
+						<ns0:Precio>22</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>19.64</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.36</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>22</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="23">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>CILANTRO MAN</ns0:Descripcion>
+						<ns0:PrecioUnitario>6.9</ns0:PrecioUnitario>
+						<ns0:Precio>6.9</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>6.16</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.74</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>6.9</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="24">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>INA MACANDCH</ns0:Descripcion>
+						<ns0:PrecioUnitario>9.9</ns0:PrecioUnitario>
+						<ns0:Precio>9.9</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>8.84</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.06</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>9.9</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="25">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>GWALTNEY</ns0:Descripcion>
+						<ns0:PrecioUnitario>25</ns0:PrecioUnitario>
+						<ns0:Precio>50</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>44.64</ns0:MontoGravable>
+								<ns0:MontoImpuesto>5.36</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>50</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="26">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>MARANON SASS</ns0:Descripcion>
+						<ns0:PrecioUnitario>15.5</ns0:PrecioUnitario>
+						<ns0:Precio>15.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>13.84</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.66</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15.5</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="27">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>COCOA HERSHE</ns0:Descripcion>
+						<ns0:PrecioUnitario>59.95</ns0:PrecioUnitario>
+						<ns0:Precio>59.95</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>53.53</ns0:MontoGravable>
+								<ns0:MontoImpuesto>6.42</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>59.95</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="28">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PASTA KRAFT</ns0:Descripcion>
+						<ns0:PrecioUnitario>13</ns0:PrecioUnitario>
+						<ns0:Precio>13</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>11.61</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.39</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>13</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="29">
+						<ns0:Cantidad>3.08</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>TOMATE R LB</ns0:Descripcion>
+						<ns0:PrecioUnitario>5.899351</ns0:PrecioUnitario>
+						<ns0:Precio>18.17</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>16.22</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.95</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>18.17</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="30">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>NECTAR 6PK</ns0:Descripcion>
+						<ns0:PrecioUnitario>14.5</ns0:PrecioUnitario>
+						<ns0:Precio>14.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>12.95</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.55</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>14.5</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="31">
+						<ns0:Cantidad>2.52</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>AGUACATE LB</ns0:Descripcion>
+						<ns0:PrecioUnitario>13.5</ns0:PrecioUnitario>
+						<ns0:Precio>34.02</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>30.38</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.64</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>34.02</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="32">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>SIRENA SARDI</ns0:Descripcion>
+						<ns0:PrecioUnitario>7.75</ns0:PrecioUnitario>
+						<ns0:Precio>7.75</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>6.92</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.83</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>7.75</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="33">
+						<ns0:Cantidad>3.15</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>CEBOLLA B LB</ns0:Descripcion>
+						<ns0:PrecioUnitario>6.4</ns0:PrecioUnitario>
+						<ns0:Precio>20.16</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>18</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.16</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>20.16</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="34">
+						<ns0:Cantidad>1.14</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PERULEROS LI</ns0:Descripcion>
+						<ns0:PrecioUnitario>6</ns0:PrecioUnitario>
+						<ns0:Precio>6.84</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>6.11</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.73</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>6.84</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="35">
+						<ns0:Cantidad>1.37</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>YUCA ENCERAD</ns0:Descripcion>
+						<ns0:PrecioUnitario>3</ns0:PrecioUnitario>
+						<ns0:Precio>4.11</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>3.67</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.44</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>4.11</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="36">
+						<ns0:Cantidad>3.29</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>PAPA SUPER</ns0:Descripcion>
+						<ns0:PrecioUnitario>8.300912</ns0:PrecioUnitario>
+						<ns0:Precio>27.31</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>24.38</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.93</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>27.31</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="37">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>LPFRAM2.5L</ns0:Descripcion>
+						<ns0:PrecioUnitario>17</ns0:PrecioUnitario>
+						<ns0:Precio>17</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>15.18</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.82</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>17</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="38">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>SUPREMO TE M</ns0:Descripcion>
+						<ns0:PrecioUnitario>12.4</ns0:PrecioUnitario>
+						<ns0:Precio>12.4</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>11.07</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.33</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>12.4</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="39">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>ELOTE DULCE</ns0:Descripcion>
+						<ns0:PrecioUnitario>15.25</ns0:PrecioUnitario>
+						<ns0:Precio>15.25</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>13.62</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.63</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15.25</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="40">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>MAGIA BLANCA</ns0:Descripcion>
+						<ns0:PrecioUnitario>9.75</ns0:PrecioUnitario>
+						<ns0:Precio>9.75</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>8.71</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.04</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>9.75</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="41">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>SHANRILA 2LT</ns0:Descripcion>
+						<ns0:PrecioUnitario>10.5</ns0:PrecioUnitario>
+						<ns0:Precio>21</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>18.75</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.25</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>21</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="42">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>OLIPCRYSTL2L</ns0:Descripcion>
+						<ns0:PrecioUnitario>19</ns0:PrecioUnitario>
+						<ns0:Precio>19</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>16.96</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.04</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>19</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="43">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>TREBOLAC CRE</ns0:Descripcion>
+						<ns0:PrecioUnitario>42</ns0:PrecioUnitario>
+						<ns0:Precio>42</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>37.5</ns0:MontoGravable>
+								<ns0:MontoImpuesto>4.5</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>42</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="44">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>CREMA DENTAL</ns0:Descripcion>
+						<ns0:PrecioUnitario>16.5</ns0:PrecioUnitario>
+						<ns0:Precio>16.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>14.73</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.77</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>16.5</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="45">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>TSPROTEXHYD</ns0:Descripcion>
+						<ns0:PrecioUnitario>27</ns0:PrecioUnitario>
+						<ns0:Precio>27</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>24.11</ns0:MontoGravable>
+								<ns0:MontoImpuesto>2.89</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>27</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="46">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>UNI</ns0:UnidadMedida>
+						<ns0:Descripcion>2PACK 2 5 LT</ns0:Descripcion>
+						<ns0:PrecioUnitario>32.5</ns0:PrecioUnitario>
+						<ns0:Precio>32.5</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>29.02</ns0:MontoGravable>
+								<ns0:MontoImpuesto>3.48</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>32.5</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="123.71" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>1154.7</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>56407734</ns0:NITCertificador>
+				<ns0:NombreCertificador>AINNOVA, SOCIEDAD ANONIMA</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="3201254909" Serie="FDDCDFAC">FDDCDFAC-BECF-45FD-B448-1DA5633AD6F9</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-13T12:11:36</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520-ref0" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>2RJvPbkbTL4jsgK2CvMIVrqoJvs2PHrUiJkAKVYsBck=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>YWZuqqSmLd0oYoYjlHtfIF9IvTiQ59H+c3bHYiUABRU=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520-sigvalue">
+P2EulyAYtA9/iAYpVUc/Eo7bSKJ5aY5burOp4CCQYVPsZKnkPcfMCHXTairbiKtomkuAoUhzbIne
+J91rl8qb64NNXg0sgWNhGLbjYsAQOE578pzzRXf4o6VkqS3+XPX47jtbwlPXibZnvaYVGRmkJrQn
+S99NE5GixyCR+pbtYNbfXytifCJS6XjAndO/GuK45orhl6CiLZ7fw/KM+sXTpBNZkPf8y6Vhxes9
+8pfbDh1u4XR+s7WfeVxvZPZzwJ4g1VPH3MNSTglQ26UFUxfHB01ESDwYadGDZ/Wss72iLsQxrhPu
+En99/8q1qbKW5+yLXO75T49RFGQ1AlN8/Dn5AA==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIDYDCCAkigAwIBAgIISkd6GRlekKEwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDgwMjIzMzMxMVoX
+DTI1MDgwMTIzMzMxMVowJzEQMA4GA1UEAwwHNzM3ODEwNjETMBEGA1UECgwKc2F0LmdvYi5ndDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMW3d+6ldLNuyO6r5W8zM1DNuPDAlR+hzFcF
+XVjpS3wo1Fygfo7bDDXK4WGZhupdy+R4MiJnGKT9ec2m3W1MaiYTDPYCETYbw9/A9pgZ3LpkMrWe
+dwygNKCxUKqNIXId0U/aiw4H+T/UffMW9VXvewQEYbWRQh2/BlxF492dmrJKU/RDj87JIeJnn3wR
+H+JPWuosPgE5XaWh9Erl4qPXGPlK5OZ0TlBdMssCGlhIlrpemYQLmpSWMAipx/yrgw4WKQbR3mAP
+CnqDLJzzJs+z6rPWpcm/oY61t9PtJ9cuGMfmNF+1igGkiMMGG5lE0hHtKKvaAvcdrQd+NxJuB5AP
+F7ECAwEAAaN/MH0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRYgnaNWCixyUMEArTVyF5qL//4
+SjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFEAEFBz05I9RglkXqf3C
+TzXKoYNMMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEANa0eaffQtH7pOoXWIMxL
+3vB+Hi7lIRBsnovZEyJSzxdYm1hSdhXtr3C+SRM3bqU+OyYxbD+tYo3krg4Rc6JcuikbrW7sQ4zM
+4dVWELpfuRyIZJbLtxTwpsXEoaj44ppJ8ZiwyftR4FnnkRtDz6UBoKGrCdd7cHh6DaHEtO90hrzE
+WfmHWOS29CGMgPpO94LtU2mHxG5va1mw8B0rmGe0v0JDgLpDiNh/gLLzeXmBwrJQBa0yY/qfs/Ns
+kfXPQyKe69H+wXD5p/ftHhTwy8QvvFVwccdXCRJijJJ2o9indapsXWmesZfJMPGuWFbG1Mqs4Voo
+E/lE+jbLOo629UFIbg==
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520">
+				<ns3:SignedProperties Id="xmldsig-aba30b7a-7874-43ed-9e1d-c80949ae9520-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-13T12:11:36.395-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>45OUex2b0m9WsAjsY/K5hSK9AqxGJm+5XwTUTEDMeLc=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>5352380930371522721</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da-ref0" URI="#DatosCertificados">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>xOa1EEfkMiPSML9MdoIqzPlr81ZoINR/G7NtAhvhkIk=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>WTBfE+ConbHB6a3Wy0OvClB8M73STeq+5PBji2K2Bbs=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da-sigvalue">
+MCWayIEZJa4uTQ39r78xLRLkNJWhl1XXni1YdYbuhMsiGZmbR58NfcRuomIMfJK6ftqHkoR6tW7v
+FsVAgdEuz15Mz/qyEuszP43bH35dIv3RVTgCLqcInIlmat378Iz1YVjnA7PWqOVHoeDp6nQLPsau
+DlJEYizV10h4IHC6FhvMsohwkvAEJxClzShB1XQrKTZwMzA1YRaixOZwkRJhdzMMoYrkamchPemT
+x0IYIwkFYRhk3stpTZrP9vR23UqAxnNwGWWmCVJv6y+5KUFBIv8rpLQ5iHCh1a73Skt6lWbzBAjr
+MGgKZFIJOm+ih0qf+PxjmbnZXSo6lkfn+t0qpg==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIJyDCCB7CgAwIBAgIIcw6AX60Fws4wDQYJKoZIhvcNAQELBQAwgcAxFjAUBgNVBGEMDVZBVEdU
+LTM1MTU5LTgxLTArBgNVBAMMJENhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGEgQ0EgMTEs
+MCoGA1UECwwjUFNDLUNhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExKDAmBgNVBAoMH0Nh
+bWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExEjAQBgNVBAcMCUd1YXRlbWFsYTELMAkGA1UE
+BhMCR1QwHhcNMjQwNTAzMTgzMjAwWhcNMjUwNTAzMTgzMjAwWjCByzFMMEoGA1UECQxDVsOtYSA1
+IDUtMzQgWm9uYSA0IENlbnRybyBGaW5hbmNpZXJvIEJsIFRvcnJlIGxsbCBOaXZlbCA1IE9maWNp
+bmEgMjEWMBQGA1UEAwwNQUlOTk9WQSwgUy5BLjERMA8GA1UEBRMINTY0MDc3MzQxFjAUBgNVBAoM
+DUFJTk5PVkEsIFMuQS4xEjAQBgNVBAcMCUdVQVRFTUFMQTELMAkGA1UEBhMCR1QxFzAVBgNVBGEM
+DlZBVEdULTU2NDA3NzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoOgXhJprY5kO
+i+wOh9WdS4fsGH5n6jydqKsBQNtuVAW/XXsPeVE3rMKliLNxctojSAxyaLKRdgc/+Ma59UJFrk4H
+QCAfBVXWlnQAtXjzrKYj96awJCuNY/lBxvC9dyD2oAju8n/X630zuRpJ91b+nTwPhTFBm43XZ+4a
+gcCeUupYEcLdWdkgjws1kEYdpMtdIxtXtoESBWrZ4h3RewOz4SEcFUhiTrxrHL97KveDXLBNebHp
+ghZh+ETqgHmSkcnw3qK/vr+UFiKd2HT2W3XrANssZYbTKPkpXlHex7rKNhZCurC20jzQodctOkDR
+VSsfq/srLaz6bey1tck41BoeowIDAQABo4IEtzCCBLMwgcsGCCsGAQUFBwEBBIG+MIG7MEkGCCsG
+AQUFBzAChj1odHRwOi8vd3d3LmZpcm1hLWUuY29tLmd0L2NlcnRpZmljYWRvcy9hY19zdWJvcmRp
+bmFkYV9jY2cuY2VyMDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGlj
+L3BraS9vY3NwLzAdBgNVHQ4EFgQUi3tSD49FHa66oDss/z9c9SNYYjAwDAYDVR0TAQH/BAIwADAf
+BgNVHSMEGDAWgBQHMhJaOy8SRoNWMa2G5dNCFi3AmzAWBgNVHRIEDzANgQtpbmZvQGNjZy5ndDCC
+AqwGA1UdIASCAqMwggKfMIICkQYKKwYBBAGBtWMBBjCCAoEwKwYIKwYBBQUHAgEWH2h0dHBzOi8v
+ZmlybWEtZS5jb20uZ3QvanVyaWRpY28wggFGBggrBgEFBQcCAjCCATgeggE0AEMAZQByAHQAaQBm
+AGkAYwBhAGQAbwAgAEQAaQBnAGkAdABhAGwAIABkAGUAIABQAGUAcgBzAG8AbgBhACAASgB1AHIA
+7QBkAGkAYwBhACAAZQBtAGkAdABpAGQAbwAgAHAAbwByACAAQwDhAG0AYQByAGEAIABkAGUAIABD
+AG8AbQBlAHIAYwBpAG8AIABkAGUAIABHAHUAYQB0AGUAbQBhAGwAYQAsACAATgBJAFQAIAAzADUA
+MQA1ADkALQA4ACwAIABpAG4AZgBvAEAAYwBjAGcALgBnAHQALAAgAHUAYgBpAGMAYQBkAG8AIABl
+AG4AIAAxADAAIABDAGEAbABsAGUAIAAzAC0AOAAwACAAWgBvAG4AYQAgADEALAAgAEcAdQBhAHQA
+ZQBtAGEAbABhAC4wggEGBggrBgEFBQcCAjCB+R6B9gBBAHUAdABvAHIAaQB6AGEAZABvACAAcwBl
+AGcA+gBuACAAcgBlAHMAbwBsAHUAYwBpAPMAbgAgAGQAZQAgADIAMwAuADAAMQAuADIAMAAxADIA
+LAAgAE4AbwAuACAAUABTAEMALQAwADEALQAyADAAMQAyACAAZABlAGwAIABSAFAAUwBDACAAZABl
+AGwAIABNAGkAbgBpAHMAdABlAHIAaQBvACAAZABlACAARQBjAG8AbgBvAG0A7QBhACAAZABlACAA
+bABhACAAUgBlAHAA+gBiAGwAaQBjAGEAIABkAGUAIABHAHUAYQB0AGUAbQBhAGwAYTAIBgYEAI96
+AQIweQYDVR0fBHIwcDA2oDSgMoYwaHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kv
+Y3JsL0NDR1QuY3JsMDagNKAyhjBodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9j
+cmwvQ0NHVC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDAjBgNVHREEHDAagRhmZ29uemFsZXpAYWlubm92YS5jb20uZ3QwDQYJKoZIhvcNAQELBQADggIB
+AK6PT8EM4wTgUdl6VyIRxcKXsstHaRiQYcx+pv49lNJwsIivUNrQfYfhmq08YdISlEqPLRJQwWZ3
+a7T320Hs22EqIxjwXztyh0NO/Pay2Rd1YGap7keMWElFMF+voKnruaUTvGoaMKAjQBQ/vCztKC0J
+0h9GVNW72VanEtNpab86cK5DcNlF7/rYlfMOf0+Q8BtDB01JYdlfCY9CIXRa2lSVHrThLGyG7r1E
+PDpyVp+wUR5IaYBJBmv4mLCyvimlIEYcDBJWlCWsToW/K5zTSgSdjzDtua9iAA1hNgh5oXsxq+5Q
+umj5cYvO4mSM7lXD16ufYzG2bJanlyfy6lK4oW45Hn7L9cH+tNem58oMQJ+lnBcFEeddUKryfdz0
+N1vOCZTwmTYFZfUl0bluiFOaUxli+NqUQ5zG499288KH0YXx5nBv3WWUvAG3YBr5qDUvpltwv2SJ
+0kytibf9w0K4LSLP2NcX+bPB+9dN3UmyUntEdjc293TjRkxMfiBQX8k2oRHU4xOXvvz7xmkcGhDY
+g7hAqR8Kd9AipXahDxA2TTYVs5H/dToVibJFNV6NRueQptZoSO0CZ5U0jAn1BIElATPl6hKh/b28
+UceIH7mN7jxTscXmc41XU0gXKMZ7SxDcFqOIhvgntMFgwTHqLEEL5DeNS7UscnFjwU7FMH9KQcjk
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da">
+				<ns3:SignedProperties Id="xmldsig-f5e7e30f-52f0-475b-a07d-626a1885b7da-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-13T12:11:36.441-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>+HhjhtBInZ0N4RJ94bqVV3MFJ2XZqtOguQuNt2++wRw=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>C=GT,L=Guatemala,O=Camara de Comercio de Guatemala,OU=PSC-Camara de Comercio de Guatemala,CN=Camara de Comercio de Guatemala CA 1,2.5.4.97=#0c0d56415447542d33353135392d38</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>8290705112448746190</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>

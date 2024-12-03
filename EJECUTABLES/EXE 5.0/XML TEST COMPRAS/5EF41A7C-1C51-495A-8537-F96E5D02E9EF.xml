@@ -1,0 +1,278 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-02T15:51:19-06:00" Tipo="FCAM" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="conta01@be-prof.com" NITEmisor="94486026" NombreComercial="COSMETICOS UNIDOS" NombreEmisor="COSMETICOS UNIDOS, S. A.">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>DIAGONAL 29, CALZADA LA PAZ 6-50, BODEGA 07, ZONA 5</ns0:Direccion>
+						<ns0:CodigoPostal>01005</ns0:CodigoPostal>
+						<ns0:Municipio>GUATEMALA</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="Karla Hernandez">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>Colonia el Mirador, 1 calle 20-01, zona 11, Guatemala (Frente a RENAP)</ns0:Direccion>
+						<ns0:CodigoPostal>01051</ns0:CodigoPostal>
+						<ns0:Municipio>GUATEMALA</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>2.000000</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>KIT SEASON PACK KERATIN|KIT0000001</ns0:Descripcion>
+						<ns0:PrecioUnitario>199.950000</ns0:PrecioUnitario>
+						<ns0:Precio>399.90</ns0:Precio>
+						<ns0:Descuento>0.00</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>357.053571</ns0:MontoGravable>
+								<ns0:MontoImpuesto>42.846429</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>399.90</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>2.000000</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>KIT SEASON PACK RESTORE|KIT0000002</ns0:Descripcion>
+						<ns0:PrecioUnitario>199.950000</ns0:PrecioUnitario>
+						<ns0:Precio>399.90</ns0:Precio>
+						<ns0:Descuento>0.00</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>357.053571</ns0:MontoGravable>
+								<ns0:MontoImpuesto>42.846429</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>399.90</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="3">
+						<ns0:Cantidad>2.000000</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>KIT SEASON PACK SILVER|KIT0000003</ns0:Descripcion>
+						<ns0:PrecioUnitario>199.950000</ns0:PrecioUnitario>
+						<ns0:Precio>399.90</ns0:Precio>
+						<ns0:Descuento>0.00</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>357.053571</ns0:MontoGravable>
+								<ns0:MontoImpuesto>42.846429</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>399.90</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="4">
+						<ns0:Cantidad>2.000000</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>KIT SEASON PACK EXTRA CARE|KIT0000004</ns0:Descripcion>
+						<ns0:PrecioUnitario>199.950000</ns0:PrecioUnitario>
+						<ns0:Precio>399.90</ns0:Precio>
+						<ns0:Descuento>0.00</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>357.053571</ns0:MontoGravable>
+								<ns0:MontoImpuesto>42.846429</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>399.90</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="5">
+						<ns0:Cantidad>2.000000</ns0:Cantidad>
+						<ns0:UnidadMedida>U</ns0:UnidadMedida>
+						<ns0:Descripcion>KIT SEASON PACK CIOCCOLATO|KIT0000006</ns0:Descripcion>
+						<ns0:PrecioUnitario>199.950000</ns0:PrecioUnitario>
+						<ns0:Precio>399.90</ns0:Precio>
+						<ns0:Descuento>0.00</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>357.053571</ns0:MontoGravable>
+								<ns0:MontoImpuesto>42.846429</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>399.90</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="214.230000" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>1999.50</ns0:GranTotal>
+				</ns0:Totales>
+				<ns0:Complementos>
+					<ns0:Complemento IDComplemento="Cambiaria" NombreComplemento="Cambiaria" URIComplemento="http://www.sat.gob.gt/fel/cambiaria.xsd">
+						<ns2:AbonosFacturaCambiaria Version="1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0 C:\Users\Nadir\Desktop\SAT_FEL_FINAL_V1\Esquemas\GT_Complemento_Cambiaria-0.1.0.xsd">
+							<ns2:Abono>
+								<ns2:NumeroAbono>1</ns2:NumeroAbono>
+								<ns2:FechaVencimiento>2024-11-01</ns2:FechaVencimiento>
+								<ns2:MontoAbono>1999.50</ns2:MontoAbono>
+							</ns2:Abono>
+						</ns2:AbonosFacturaCambiaria>
+					</ns0:Complemento>
+				</ns0:Complementos>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>12521337</ns0:NITCertificador>
+				<ns0:NombreCertificador>INFILE, S.A.</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="475089242" Serie="5EF41A7C">5EF41A7C-1C51-495A-8537-F96E5D02E9EF</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-02T15:47:45-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns3:Signature Id="Signature-46e3d79b-2ee2-4571-af53-4a138b422e17">
+		<ns3:SignedInfo>
+			<ns3:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns3:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns3:Reference URI="#DatosEmision">
+				<ns3:Transforms>
+					<ns3:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns3:Transforms>
+				<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns3:DigestValue>1XF3feADH21YnAslOQXTjneELuGz1DdZwJsJw9avqRI=</ns3:DigestValue>
+			</ns3:Reference>
+			<ns3:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-46e3d79b-2ee2-4571-af53-4a138b422e17">
+				<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns3:DigestValue>h7iofu3lO6ukHITVwopl3K5vAt6c4u3PrZ2ZKoFdwrE=</ns3:DigestValue>
+			</ns3:Reference>
+		</ns3:SignedInfo>
+		<ns3:SignatureValue Id="Signature-46e3d79b-2ee2-4571-af53-4a138b422e17-sigvalue">cg5M8aEuTUP1QAuyy1q5xnrTqv0EiXFYP3088EUqQUxFx1mO0S7k9yXI/1zijEYPr6nssGPcjzwCjoawbGKiWY04VbKdgKXH1Ip6pYnCBeKKrgMp8WB+j3+m/Pq/eTnPI+KUKeRGTwccXkYmSA6M5zBjAdn/llHL5bXcaTgmqpxXisSfsV/odvZm5vnO705JJT3ZqDEsM31eMC0RXKrLvnQO/2DL/JT/JSkVHogY2SZw5YcJxP6Mb43X2YUzy613DIFNOa/FKg+MsNxxbwPCbX2vMvd2KF4KXnr0JuwlOayoZWM4jchDb8LR5UiR+UNxHmqqpOjDmXFiK65qTFsPew==</ns3:SignatureValue>
+		<ns3:KeyInfo>
+			<ns3:X509Data>
+				<ns3:X509Certificate>MIIDYTCCAkmgAwIBAgIIWjDG6TDY4h0wDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJpbnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIyMTIxNTE0NTQ1OVoXDTI0MTIxNDE0NTQ1OVowKDERMA8GA1UEAwwIOTQ0ODYwMjYxEzARBgNVBAoMCnNhdC5nb2IuZ3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP5cZTRHLGNF9bGhpBV0MssA1vE9hHhxcerCCYBj02LApYKCSKg9mMIxGcqbr/2CLPxT7ktSuB0zRgCUgRo0dBV9FweZ+l+65Pj38q0UQNi9j/grPZukvItZecqiZBeZdORjd05k7cC3qGv85TLESDsyLMOpPLQO5AnJQAbt5IXzWYd+vhPVVurgFYMuBxw8nQhu98tPRH4hayDhhlU2NAaPdeIYpgltUns2jLLp9e4Fn32LOa9zogsgH8vLUyoaB1TQZ7je/zsCw7RLq2sQm6zOqIsxV/uhkQAwyFclfq7FusHbB2xseOxIppTVkeS+taBeoBKquFEIBcZclwu6RVAgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWIJ2jVgosclDBAK01cheai//+EowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBSaIvkHl0/8qLC/U9PO91nRKlDIgDAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBABYN2I2MdvG9TPpyv0X6K/PzQtEssYt/0krVsyDHEt4fHh9KRFDRn8ut3dQZFrL60Cy27GU4bRX7/4Ra/+FFZ7ZK7TZI5H2jS4Q7Hvf2Xljqv4ozNHsmDta+KP45YTWIjUqUsOX0P980f1dcLoGHB64dxumUZmcJ4XiHhjOL5DetcZictPmm/1cRc6f9e0o3TuwOC1lr89d0NvDt9leI/ZQy6gh+6NP3Tp6vDSzVuzrq+gozgixivgqUkXxhxVEXS+AgAUAhyCQUCZc1QzLG1KVlRz2SW1GcJ3zrMofN58OdvlJv355S1Q9Rk9kPEDDlZc3WJslFnMJpkkzGku5Ico8=</ns3:X509Certificate>
+				<ns3:X509SubjectName>O=sat.gob.gt, CN=94486026</ns3:X509SubjectName>
+				<ns3:X509SKI>miL5B5dP/Kiwv1PTzvdZ0SpQyIA=</ns3:X509SKI>
+			</ns3:X509Data>
+		</ns3:KeyInfo>
+		<ns3:Object>
+			<ns4:QualifyingProperties Id="QualifyingProperties-aa262416-8607-4f02-8897-0a6440a1ae03" Target="#Signature-46e3d79b-2ee2-4571-af53-4a138b422e17">
+				<ns4:SignedProperties Id="SignedProperties-Signature-46e3d79b-2ee2-4571-af53-4a138b422e17">
+					<ns4:SignedSignatureProperties>
+						<ns4:SigningTime>2024-10-02T15:47:44-06:00</ns4:SigningTime>
+						<ns4:SigningCertificate>
+							<ns4:Cert>
+								<ns4:CertDigest>
+									<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns3:DigestValue>plBwa/SxN/nvxslXqkvP8v/4L9MVowv2toXwttkyu34=</ns3:DigestValue>
+								</ns4:CertDigest>
+							</ns4:Cert>
+						</ns4:SigningCertificate>
+					</ns4:SignedSignatureProperties>
+				</ns4:SignedProperties>
+			</ns4:QualifyingProperties>
+		</ns3:Object>
+	</ns3:Signature>
+	<ns3:Signature Id="xmldsig-de75bede-47e2-4134-a95d-7d63343347c5">
+		<ns3:SignedInfo>
+			<ns3:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns3:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns3:Reference Id="xmldsig-de75bede-47e2-4134-a95d-7d63343347c5-ref0" URI="#DatosEmision">
+				<ns3:Transforms>
+					<ns3:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns3:Transforms>
+				<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns3:DigestValue>1XF3feADH21YnAslOQXTjneELuGz1DdZwJsJw9avqRI=</ns3:DigestValue>
+			</ns3:Reference>
+			<ns3:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-de75bede-47e2-4134-a95d-7d63343347c5-signedprops">
+				<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns3:DigestValue>7CLllqB4Umkwu5clPpXvrhxAgxPw5PT32MNXPzI88Pc=</ns3:DigestValue>
+			</ns3:Reference>
+		</ns3:SignedInfo>
+		<ns3:SignatureValue Id="xmldsig-de75bede-47e2-4134-a95d-7d63343347c5-sigvalue">
+F68ogCXf1Lcnq6wf6fvTCYICyhBl6SNIsFbi33Q91USK+WGHLzac3wGtuaQKJAKPO3mU2vhWbbWX
+dcFJW6osw+RQxoyiip+t9r6SATQ62BXwn9CQ0zsXmij7+yKsBN1jtlx4w6MXE0MSq+XQYWdg5Lwg
+lJqxgIHIZv0uVkWUyd8XBK5lIZZIkJtuy9ZEEfwUn2gQ0TZJrJAX0wguDj2w8LEhPGSM+x3jSGdz
+ASA7yYHxhi2kW1Sq9r0EoOVzgpQgRCXYGY00OZ7UYHJm2zRh/b8U2wIzUQxuq5O2cqBbk7lMLYXw
+Ei6qtoqobQ1ZqwX0WhmAmjj9G0juH4UpX/sW9A==
+</ns3:SignatureValue>
+		<ns3:KeyInfo>
+			<ns3:X509Data>
+				<ns3:X509Certificate>
+MIIJ5zCCB8+gAwIBAgIMQUNHVEkyAAAAAAAYMA0GCSqGSIb3DQEBCwUAMIIBLzEmMCQGA1UEAxYd
+UmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxj
+bGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+EjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMINTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEg
+UmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVsIDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwG
+A1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFsYTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYD
+VQQGEwJHVDAeFw0yMjA4MTgyMjU4MjZaFw0yNTA4MTgyMjU4MjZaMIIBgDEaMBgGA1UEDQwRUGVy
+c29uYSBKdXLDrWRpY2ExCzAJBgNVBAYTAkdUMR4wHAYDVQQHDBVHVUFURU1BTEEgLyBHVUFURU1B
+TEExOTA3BgNVBAkMMEFWIFJFRk9STUEgMy00OCBaT05BIDkgRURJRklDSU8gQU5FTCBPRklDSU5B
+IDQwMTESMBAGA1UEFBMJMjIwOC0yMjA4MRQwEgYDVQQLDAtQUkVTSURFTkNJQTEPMA0GA1UECgwG
+SU5GSUxFMTMwMQYDVQQMDCpQUkVTSURFTlRFIEVKRUNVVElWTyBZIFJFUFJFU0VOVEFOVEUgTEVH
+QUwxGDAWBgNVBAUTDzE2NTMgMjQ5ODggMDEwMTERMA8GA1UELQwIMTI1MjEzMzcxHzAdBgNVBCoM
+FkdVSUxMRVJNTyBCUkFOIFZBTExFSk8xJjAkBgkqhkiG9w0BCQEWF2dlcmVuY2lhM0BpbmZpbGUu
+Y29tLmd0MRQwEgYDVQQDDAtJTkZJTEUgUy5BLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAK9I8pyUyEeEii1XBRei28usnYvvPnLfSlf6M5DqPvI4rdmAzbtl9mdz8aanij0+QRO95kUW
+g215vG00+rwHWYE7+mz/JsT8AySnD6YVErW5c02eo9FVywurCTRTWQXzK1cRw20bf4kxZxzKaKOM
+MZCFAAlbVRXNbQHo4cCybphWM/9pvB1komxaw7U+VxrTmPnn1eH/n8bZqwrb2dQH21LquMpa2XUw
+DQXzAjILqXtCiS8XNchQQs8Bbo3gEHUiF1ympOuXm3S6JhBlAeQLhLr7D46ZOTiPkrjuya41MJ1k
+AgMU230VyslPDzPWAYPcV5TFq/fxJ82N4fAkPPB7lkECAwEAAaOCA6wwggOoMEAGCCsGAQUFBwEB
+BDQwMjAwBggrBgEFBQcwAYYkaHR0cDovL29jc3AucmVhY2hjb3JlLmNvbS9PQ1NQUFJJU01BMIIB
+UgYDVR0RBIIBSTCCAUWBJ1ByZXN0YWRvciBkZSBTZXJ2aWNpb3MgZGUgQ2VydGlmaWNhY2k/boFb
+IGF1dG9yaXphZG8gc2VnP24gcmVzb2x1Y2k/biBOby4gUFNDLTAxLTIwMTQgZW1pdGlkYSBwb3Ig
+ZWwgUlBTQyBkZWwgTWluaXN0ZXJpbyBkZSBFY29ub20/YYFXIGRlIGFjdWVyZG8gYSBsYSBMZXkg
+cGFyYSBlbCByZWNvbm9jaW1pZW50byBkZSBsYXMgY29tdW5pY2FjaW9uZXMgeSBmaXJtYXMgZWxl
+Y3RyP25pY2FzgUsgRGVjcmV0byA0Ny0yMDA4IGRlbCBDb25ncmVzbyBkZSBsYSBSZXA/YmxpY2Eg
+ZGUgR3VhdGVtYWxhIHkgc3UgcmVnbGFtZW50by6BF2dlcmVuY2lhM0BpbmZpbGUuY29tLmd0MFAG
+A1UdHwRJMEcwRaBDoEGGP2h0dHBzOi8vY2EuYWR2YW50YWdlLXNlY3VyaXR5LmNvbS9hY3ByaXNt
+YTAxL2NybC9wcmlzbWEyX2d0LmNybDCCAWcGA1UdIwSCAV4wggFagBQWdf6ZNR0f1d2vT+ArnRvw
+u4xKGqGCATekggEzMIIBLzEmMCQGA1UEAxYdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4x
+KjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxjbGllbnRlQHByaXNtYS5ndDEmMCQGA1UEChYdUmVn
+aXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS4xEjAQBgNVBAsTCUd1YXRlbWFsYTERMA8GA1UELRMI
+NTkzOTg0ODUxRTBDBgNVBAkWPEF2ZW5pZGEgUmVmb3JtYSAzLTQ4IFpvbmEgOSBFZGlmLiBBbmVs
+IDV0byBuaXZlbCBPZmljaW5hIDUwMzEOMAwGA1UEERMFMDEwMDkxEjAQBgNVBAcTCUd1YXRlbWFs
+YTESMBAGA1UECBMJR3VhdGVtYWxhMQswCQYDVQQGEwJHVIIHQUNHVDJJMTARBglghkgBhvhCAQEE
+BAMCAIAwCwYDVR0PBAQDAgGgMBIGA1UdEwEB/wQIMAYBAQACAQAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4ICAQBlpAuxETjDoeWIEUUbI7u02/wH/pyLNDOf
+i5ts9pWJuttYsIQn7BSRyxlvHIZAzknofllgkVJJebR5yPqSt2eUnq+C7r7iFfmxbzX35azpp1Bh
+MMVyg0qfd5AJAZu6xpNQaP26fVzGh3hMkE/BT4ODTTEskZc/QgUi4rSPOUmHYdmIN+M759Bw3aPV
+/GYr0Sx3fC3T/GuFM0B4mV2PagTAnWeDXGHCuYl8NOWDCbEajDaNu9/LeDTP8c7xwzmlsUb9s2OQ
+8JoCArgRJ/oaf83c29kkkJUb8K2oskzivfPih6ZBiQMpmxHtkI8/rBMWu+41dVcpdlbJLWLkw8Dw
+lR/THP27wq9pNEFaJ3946emsReNGim7hEn0kvoD4Iw+uv36WWHhxYaE8EWGHoY/iqafX1XjIBxtE
+JxqGfVW2Ea9kd488aWM6a2aigQjHKw6i4jLSua4LKnDMkuBM2sJQ4SOOgdbXBYh/N1/aLKDBX+L9
+PX2wQrStkLVidrtx+vGoB4heYonwYyeJSW/fshHC4Ab8M3UP338Hc010XNVKmz4r98j6LYNO/HSP
+0J4DsU4fnsSMPkzL92Z1KPZMS/+d8nSP5tsh69g0ri6r1qOnmHYBc1cvAEgtbVf06mSuK4QPdRu6
+oBd1kmZpnT+8E8S0KNu42vMXPuAVYSKsglZEqJZmYQ==
+</ns3:X509Certificate>
+			</ns3:X509Data>
+		</ns3:KeyInfo>
+		<ns3:Object>
+			<ns4:QualifyingProperties Target="#xmldsig-de75bede-47e2-4134-a95d-7d63343347c5">
+				<ns4:SignedProperties Id="xmldsig-de75bede-47e2-4134-a95d-7d63343347c5-signedprops">
+					<ns4:SignedSignatureProperties>
+						<ns4:SigningTime>2024-10-02T15:47:45.176-06:00</ns4:SigningTime>
+						<ns4:SigningCertificate>
+							<ns4:Cert>
+								<ns4:CertDigest>
+									<ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns3:DigestValue>rJoY2GmteCNlC8iq09nyoJmmkerIeUqWoCvtO+fGj+Y=</ns3:DigestValue>
+								</ns4:CertDigest>
+								<ns4:IssuerSerial>
+									<ns3:X509IssuerName>C=GT,ST=Guatemala,L=Guatemala,2.5.4.17=#13053031303039,STREET=Avenida Reforma 3-48 Zona 9 Edif. Anel 5to nivel Oficina 503,2.5.4.45=#13083539333938343835,OU=Guatemala,O=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=#161b736572766963696f616c636c69656e746540707269736d612e6774,CN=Registro Digital Prisma\, S.A.</ns3:X509IssuerName>
+									<ns3:X509SerialNumber>20197860511122673671832862744</ns3:X509SerialNumber>
+								</ns4:IssuerSerial>
+							</ns4:Cert>
+						</ns4:SigningCertificate>
+					</ns4:SignedSignatureProperties>
+				</ns4:SignedProperties>
+			</ns4:QualifyingProperties>
+		</ns3:Object>
+	</ns3:Signature>
+</ns0:GTDocumento>

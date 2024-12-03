@@ -1,0 +1,309 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0 GT_Documento-0.2.1.xsd">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-18T19:03:32.819-06:00" Tipo="FACT" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="159" CorreoEmisor="" NITEmisor="904945" NombreComercial="CAMPERO NO. 181" NombreEmisor="POLLO CAMPERO SOCIEDAD ANONIMA">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>3 CALLE 6-72  ZONA 8 SECTOR A-3, SAN CRISTOBAL I </ns0:Direccion>
+						<ns0:CodigoPostal>01000</ns0:CodigoPostal>
+						<ns0:Municipio>MIXCO</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="HERN?NDEZ,FLORES,,KARLA,MARIELA">
+					<ns0:DireccionReceptor>
+						<ns0:Direccion>. </ns0:Direccion>
+						<ns0:CodigoPostal>00100</ns0:CodigoPostal>
+						<ns0:Municipio> </ns0:Municipio>
+						<ns0:Departamento> </ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionReceptor>
+				</ns0:Receptor>
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="1" TipoFrase="1" />
+					<ns0:Frase CodigoEscenario="1" TipoFrase="2" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="B" NumeroLinea="1">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>PIZZA.GD.PEPPERO </ns0:Descripcion>
+						<ns0:PrecioUnitario>70</ns0:PrecioUnitario>
+						<ns0:Precio>70</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>62.5</ns0:MontoGravable>
+								<ns0:MontoImpuesto>7.5</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>70</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="2">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>PEPSI 1.5 LITROS </ns0:Descripcion>
+						<ns0:PrecioUnitario>15</ns0:PrecioUnitario>
+						<ns0:Precio>15</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>13.39</ns0:MontoGravable>
+								<ns0:MontoImpuesto>1.61</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>15</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="3">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>PIZZA.GD.HAWAIA </ns0:Descripcion>
+						<ns0:PrecioUnitario>90</ns0:PrecioUnitario>
+						<ns0:Precio>90</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>80.36</ns0:MontoGravable>
+								<ns0:MontoImpuesto>9.64</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>90</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="4">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>MnuSprCampMD </ns0:Descripcion>
+						<ns0:PrecioUnitario>68</ns0:PrecioUnitario>
+						<ns0:Precio>68</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>60.71</ns0:MontoGravable>
+								<ns0:MontoImpuesto>7.29</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>68</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="5">
+						<ns0:Cantidad>2</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>1Pz E/Crujiente </ns0:Descripcion>
+						<ns0:PrecioUnitario>1</ns0:PrecioUnitario>
+						<ns0:Precio>2</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>1.79</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.21</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>2</ns0:Total>
+					</ns0:Item>
+					<ns0:Item BienOServicio="B" NumeroLinea="6">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:UnidadMedida>1</ns0:UnidadMedida>
+						<ns0:Descripcion>1Pz Parrilla </ns0:Descripcion>
+						<ns0:PrecioUnitario>1</ns0:PrecioUnitario>
+						<ns0:Precio>1</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:Impuestos>
+							<ns0:Impuesto>
+								<ns0:NombreCorto>IVA</ns0:NombreCorto>
+								<ns0:CodigoUnidadGravable>1</ns0:CodigoUnidadGravable>
+								<ns0:MontoGravable>.89</ns0:MontoGravable>
+								<ns0:MontoImpuesto>.11</ns0:MontoImpuesto>
+							</ns0:Impuesto>
+						</ns0:Impuestos>
+						<ns0:Total>1</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:TotalImpuestos>
+						<ns0:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="26.36" />
+					</ns0:TotalImpuestos>
+					<ns0:GranTotal>246</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>56407734</ns0:NITCertificador>
+				<ns0:NombreCertificador>AINNOVA, SOCIEDAD ANONIMA</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="2855290875" Serie="68077F1A">68077F1A-AA30-47FB-9C8F-308BF710033A</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-18T19:03:32</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5-ref0" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>oy2+y2L2lrCzkAVCtR1GQfCA8BtOTGFdXK1GbhNn1Cg=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>oBVYzaDEVVlzU8bqSSD8LumBuv8fLATB4thO1gTLTtw=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5-sigvalue">
+Vs0sVFDGCA8t66TomiI0W4XaVJzuHf7NRjigYNiuOSMxYBzJ03UhZuVhRkL+jdgxQnSNubrrZL2C
+8qLOX4CWLvYjK0wJxnWwzjTVcUp5/SaRHlbh3pWWibywdqUUo46uCb6j4v5GDgk4va7S9gyHz6U6
+xeaYkFONQkFmLtLRcDz47oA4LfN7OiMYLXupRhAXLjXd6Bciz1t7+iYMq7+CIIYIHJX4He8JaZuz
+5/6AqujCe2dUI9EJbyF5Al5GqZMkerHrx0fN1aAqCZCvY1oBI9/7JTSNL7cFeiU/Nr2vDkuOBSkW
+wd2uk7mS0r/b4Yp/lkcnMRtqz2504UWlhYP+yw==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIDXzCCAkegAwIBAgIILBDCkhDfoFAwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDkyODE2NDY0MFoX
+DTI1MDkyNzE2NDY0MFowJjEPMA0GA1UEAwwGOTA0OTQ1MRMwEQYDVQQKDApzYXQuZ29iLmd0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoMoapPA4ru2GF/0gTNjTbsYJU5wZQAfKnkvr
+jNxHkXcTCCaw6SatY6KAc7GmxhY6fWDjbZoVYaD9cMmkQZyRhhDAx6+x9eTfAlAuEuXLZ4/FYcpY
+X3APWhuTG9ofpccI3sDbBuc0rwGF9FW5TooqQerRnzoeGpFCOldofyeryFdQCSc0jTkpWGSQ/BaS
+vy16yO8vzQt3t+qRLhCukVITzT0+rv7rGQjIkvGbcc3qJSg8lkf3S23JWZD3xikwwmLhxxIQ/Mq1
+GKr/KvRs0h6T8qhWV6xVphmQL3jMPP1EH7w8oyqhEIeLO+7Wfbn/wiA5sNwx7t4pzs6F3w+qbURQ
+dQIDAQABo38wfTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFiCdo1YKLHJQwQCtNXIXmov//hK
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQUg8F0qJDc3jAYA0gd/0mM
+akCAp+QwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4IBAQAxFGc9QP9p0ZFxYKdnjRIW
+msED37z3/dM14wQsD5zYZ6tb9mMPeR7z7sgAP1l9rKdYKnfUBHKucvIN8y1AsHk58Gb87/m9LT1Z
+fCKbEEWdQd6arplofG5pMG2SxrinslFhr+YyGkRTNh8o8WcXwyWi+x0VCcZ2b2QmJTl2ef33WkKG
+OWnTLO2a/KtSBgD3tW9LJJZCXfaStTwEorIeQ68w9LavB5MQydTLvIaFPBSHCook2yPDVo2nR90S
+R9wloxPhYIcCe+U4b9gub3Z2m8y1Kiz1/Z56VVBUfv1mN/QxmQFN4Cp7nBkrVrbcALdBbk34kpWs
+PPlxCopCUzO2Khyp
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5">
+				<ns3:SignedProperties Id="xmldsig-2cfddd87-4296-48fc-96c1-85a84f0b90a5-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-18T19:03:32.857-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>4/5XsOeMzAuit/mLB0h9vqTJZPfB9s+XtEPp9ypsmzc=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>3175251669900304464</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f-ref0" URI="#DatosCertificados">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>2Ji+mPQvbPY0Q4wYT3wF5k3dH4WJmj8j4zbyRh0KYN8=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>yvDAjV64YiSovME/3Hj18RWu2AkEbS4Vme4Uo2Qedes=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f-sigvalue">
+bxHewc3syl2xwJFM+Y9MITvWI3oTJB2QKI1HoHGhnhnmmma7BEgGlmdVUwlvS9u51Vpl44Mi6Qjf
+agh+y7N6TbP//UHAJNJKgMJ9EYeZJwWWL6Kex2QXEikaXNJat16bJAu7oy+ZDjAOdTeKdTpxgc2q
+5tIOdASit6GN5m9NIzaTj8MMtxKEekPzyH9Q2IlkkXZAKsRxkE37Pz7Edgk4CkAm8S/q/yaWxH9+
+BdUu2pTD4Rm/u+DIX3gMPW44kB8VyoBWigSuexDsd1xS5m1oiMFAcziIayYGYGgwFahLhggMx7DR
+gxxYeeJYb2ea5/6D2wxGegGpBClT/prscjxSVQ==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIJyDCCB7CgAwIBAgIIcw6AX60Fws4wDQYJKoZIhvcNAQELBQAwgcAxFjAUBgNVBGEMDVZBVEdU
+LTM1MTU5LTgxLTArBgNVBAMMJENhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGEgQ0EgMTEs
+MCoGA1UECwwjUFNDLUNhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExKDAmBgNVBAoMH0Nh
+bWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExEjAQBgNVBAcMCUd1YXRlbWFsYTELMAkGA1UE
+BhMCR1QwHhcNMjQwNTAzMTgzMjAwWhcNMjUwNTAzMTgzMjAwWjCByzFMMEoGA1UECQxDVsOtYSA1
+IDUtMzQgWm9uYSA0IENlbnRybyBGaW5hbmNpZXJvIEJsIFRvcnJlIGxsbCBOaXZlbCA1IE9maWNp
+bmEgMjEWMBQGA1UEAwwNQUlOTk9WQSwgUy5BLjERMA8GA1UEBRMINTY0MDc3MzQxFjAUBgNVBAoM
+DUFJTk5PVkEsIFMuQS4xEjAQBgNVBAcMCUdVQVRFTUFMQTELMAkGA1UEBhMCR1QxFzAVBgNVBGEM
+DlZBVEdULTU2NDA3NzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoOgXhJprY5kO
+i+wOh9WdS4fsGH5n6jydqKsBQNtuVAW/XXsPeVE3rMKliLNxctojSAxyaLKRdgc/+Ma59UJFrk4H
+QCAfBVXWlnQAtXjzrKYj96awJCuNY/lBxvC9dyD2oAju8n/X630zuRpJ91b+nTwPhTFBm43XZ+4a
+gcCeUupYEcLdWdkgjws1kEYdpMtdIxtXtoESBWrZ4h3RewOz4SEcFUhiTrxrHL97KveDXLBNebHp
+ghZh+ETqgHmSkcnw3qK/vr+UFiKd2HT2W3XrANssZYbTKPkpXlHex7rKNhZCurC20jzQodctOkDR
+VSsfq/srLaz6bey1tck41BoeowIDAQABo4IEtzCCBLMwgcsGCCsGAQUFBwEBBIG+MIG7MEkGCCsG
+AQUFBzAChj1odHRwOi8vd3d3LmZpcm1hLWUuY29tLmd0L2NlcnRpZmljYWRvcy9hY19zdWJvcmRp
+bmFkYV9jY2cuY2VyMDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGlj
+L3BraS9vY3NwLzAdBgNVHQ4EFgQUi3tSD49FHa66oDss/z9c9SNYYjAwDAYDVR0TAQH/BAIwADAf
+BgNVHSMEGDAWgBQHMhJaOy8SRoNWMa2G5dNCFi3AmzAWBgNVHRIEDzANgQtpbmZvQGNjZy5ndDCC
+AqwGA1UdIASCAqMwggKfMIICkQYKKwYBBAGBtWMBBjCCAoEwKwYIKwYBBQUHAgEWH2h0dHBzOi8v
+ZmlybWEtZS5jb20uZ3QvanVyaWRpY28wggFGBggrBgEFBQcCAjCCATgeggE0AEMAZQByAHQAaQBm
+AGkAYwBhAGQAbwAgAEQAaQBnAGkAdABhAGwAIABkAGUAIABQAGUAcgBzAG8AbgBhACAASgB1AHIA
+7QBkAGkAYwBhACAAZQBtAGkAdABpAGQAbwAgAHAAbwByACAAQwDhAG0AYQByAGEAIABkAGUAIABD
+AG8AbQBlAHIAYwBpAG8AIABkAGUAIABHAHUAYQB0AGUAbQBhAGwAYQAsACAATgBJAFQAIAAzADUA
+MQA1ADkALQA4ACwAIABpAG4AZgBvAEAAYwBjAGcALgBnAHQALAAgAHUAYgBpAGMAYQBkAG8AIABl
+AG4AIAAxADAAIABDAGEAbABsAGUAIAAzAC0AOAAwACAAWgBvAG4AYQAgADEALAAgAEcAdQBhAHQA
+ZQBtAGEAbABhAC4wggEGBggrBgEFBQcCAjCB+R6B9gBBAHUAdABvAHIAaQB6AGEAZABvACAAcwBl
+AGcA+gBuACAAcgBlAHMAbwBsAHUAYwBpAPMAbgAgAGQAZQAgADIAMwAuADAAMQAuADIAMAAxADIA
+LAAgAE4AbwAuACAAUABTAEMALQAwADEALQAyADAAMQAyACAAZABlAGwAIABSAFAAUwBDACAAZABl
+AGwAIABNAGkAbgBpAHMAdABlAHIAaQBvACAAZABlACAARQBjAG8AbgBvAG0A7QBhACAAZABlACAA
+bABhACAAUgBlAHAA+gBiAGwAaQBjAGEAIABkAGUAIABHAHUAYQB0AGUAbQBhAGwAYTAIBgYEAI96
+AQIweQYDVR0fBHIwcDA2oDSgMoYwaHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kv
+Y3JsL0NDR1QuY3JsMDagNKAyhjBodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9j
+cmwvQ0NHVC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDAjBgNVHREEHDAagRhmZ29uemFsZXpAYWlubm92YS5jb20uZ3QwDQYJKoZIhvcNAQELBQADggIB
+AK6PT8EM4wTgUdl6VyIRxcKXsstHaRiQYcx+pv49lNJwsIivUNrQfYfhmq08YdISlEqPLRJQwWZ3
+a7T320Hs22EqIxjwXztyh0NO/Pay2Rd1YGap7keMWElFMF+voKnruaUTvGoaMKAjQBQ/vCztKC0J
+0h9GVNW72VanEtNpab86cK5DcNlF7/rYlfMOf0+Q8BtDB01JYdlfCY9CIXRa2lSVHrThLGyG7r1E
+PDpyVp+wUR5IaYBJBmv4mLCyvimlIEYcDBJWlCWsToW/K5zTSgSdjzDtua9iAA1hNgh5oXsxq+5Q
+umj5cYvO4mSM7lXD16ufYzG2bJanlyfy6lK4oW45Hn7L9cH+tNem58oMQJ+lnBcFEeddUKryfdz0
+N1vOCZTwmTYFZfUl0bluiFOaUxli+NqUQ5zG499288KH0YXx5nBv3WWUvAG3YBr5qDUvpltwv2SJ
+0kytibf9w0K4LSLP2NcX+bPB+9dN3UmyUntEdjc293TjRkxMfiBQX8k2oRHU4xOXvvz7xmkcGhDY
+g7hAqR8Kd9AipXahDxA2TTYVs5H/dToVibJFNV6NRueQptZoSO0CZ5U0jAn1BIElATPl6hKh/b28
+UceIH7mN7jxTscXmc41XU0gXKMZ7SxDcFqOIhvgntMFgwTHqLEEL5DeNS7UscnFjwU7FMH9KQcjk
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f">
+				<ns3:SignedProperties Id="xmldsig-8ea9cf3c-389a-475f-8b33-403320b0977f-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-18T19:03:32.927-06:00</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>+HhjhtBInZ0N4RJ94bqVV3MFJ2XZqtOguQuNt2++wRw=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>C=GT,L=Guatemala,O=Camara de Comercio de Guatemala,OU=PSC-Camara de Comercio de Guatemala,CN=Camara de Comercio de Guatemala CA 1,2.5.4.97=#0c0d56415447542d33353135392d38</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>8290705112448746190</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>

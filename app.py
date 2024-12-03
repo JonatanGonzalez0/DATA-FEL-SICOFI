@@ -264,8 +264,7 @@ def cargarBotones():
     btn_ExtraerInfo = tk.Button(app,text="XML COMPRAS a SICOFI",font=("Courier", 20),command=extraerInfoCompras)
     btn_ExtraerInfo.configure(background='#8823DB',fg='#fdfbfb')
     btn_ExtraerInfo.pack( pady=20)
-
-    
+   
 def buscarCarpeta():
     os.startfile(path_DataOutput)
     
@@ -372,7 +371,7 @@ def cargarArchivo():
 
 def extraerInfoCompras():
     global boolProcesar, nombreReceptor, nomenclatura, procesarSiguiente
-    
+    procesarSiguiente = True
     try:
         path_downloads = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Downloads')     
         file_names = filedialog.askopenfilenames(initialdir=path_downloads,title = "Selecciona uno o varios archivos")
@@ -452,6 +451,10 @@ def extraerInfoCompras():
                 if tipoFact == 'FESP':
                     TipoDoc = 4
                     strTipoDoc = 'Factura Especial'
+                elif tipoFact == 'RECI':
+                    # SALTAR SEGUIR CON EL SIGUIENTE ARCHIVO
+                    continue
+                    
                 elif tipoFact == 'NDEB':
                     TipoDoc = 5
                     strTipoDoc = 'Nota de débito'
@@ -462,6 +465,7 @@ def extraerInfoCompras():
                     strTipoDoc = 'Factura Electrónica'
 
                 #Periodo: Periodo para contabilizar.  AAAAMM
+                periodo = 0000
                 periodo = anio + mes
 
                 #certificacion

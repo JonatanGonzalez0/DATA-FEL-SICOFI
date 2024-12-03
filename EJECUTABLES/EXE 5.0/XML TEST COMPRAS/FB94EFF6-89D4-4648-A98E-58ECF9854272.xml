@@ -1,0 +1,215 @@
+<ns0:GTDocumento xmlns:ns0="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0 GT_Documento-0.2.0.xsd">
+	<ns0:SAT ClaseDocumento="dte">
+		<ns0:DTE ID="DatosCertificados">
+			<ns0:DatosEmision ID="DatosEmision">
+				<ns0:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2024-10-02T14:18:47-06:00" Tipo="RECI" TipoPersoneria="1050" />
+				<ns0:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="11848103" NombreComercial="CONDOMINIO TIKAL FUTURA" NombreEmisor="CONDOMINIO TIKAL FUTURA">
+					<ns0:DireccionEmisor>
+						<ns0:Direccion>CALZADA ROOSEVELT  22-43 EDIFICIO TIKAL FUTURA,  217 zona 11, Guatemala, GUATEMALA</ns0:Direccion>
+						<ns0:CodigoPostal>1</ns0:CodigoPostal>
+						<ns0:Municipio>Guatemala</ns0:Municipio>
+						<ns0:Departamento>GUATEMALA</ns0:Departamento>
+						<ns0:Pais>GT</ns0:Pais>
+					</ns0:DireccionEmisor>
+				</ns0:Emisor>
+				<ns0:Receptor CorreoReceptor="" IDReceptor="44356382" NombreReceptor="KARLA MARIELA, HERN?NDEZ FLORES" />
+				<ns0:Frases>
+					<ns0:Frase CodigoEscenario="6" TipoFrase="4" />
+				</ns0:Frases>
+				<ns0:Items>
+					<ns0:Item BienOServicio="S" NumeroLinea="1">
+						<ns0:Cantidad>1</ns0:Cantidad>
+						<ns0:Descripcion>CUOTA ORDINARIA DE MANTENIMIENTO, C.C. TIKAL FUTURA, LOCAL 219, OCTUBRE 2024</ns0:Descripcion>
+						<ns0:PrecioUnitario>3940.10</ns0:PrecioUnitario>
+						<ns0:Precio>3940.100000</ns0:Precio>
+						<ns0:Descuento>0</ns0:Descuento>
+						<ns0:OtrosDescuento>0</ns0:OtrosDescuento>
+						<ns0:Total>3940.100000</ns0:Total>
+					</ns0:Item>
+				</ns0:Items>
+				<ns0:Totales>
+					<ns0:GranTotal>3940.100000</ns0:GranTotal>
+				</ns0:Totales>
+			</ns0:DatosEmision>
+			<ns0:Certificacion>
+				<ns0:NITCertificador>16693949</ns0:NITCertificador>
+				<ns0:NombreCertificador>Superintendencia de Administracion Tributaria</ns0:NombreCertificador>
+				<ns0:NumeroAutorizacion Numero="2312390216" Serie="FB94EFF6">FB94EFF6-89D4-4648-A98E-58ECF9854272</ns0:NumeroAutorizacion>
+				<ns0:FechaHoraCertificacion>2024-10-02T14:18:47-06:00</ns0:FechaHoraCertificacion>
+			</ns0:Certificacion>
+		</ns0:DTE>
+	</ns0:SAT>
+	<ns2:Signature Id="xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd-ref0" URI="#DatosEmision">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>nrybYoHCXQPMuCaKiUBTfCcy45qmjvq1w2a/2Ymghms=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>8x8it57fsyTUGXUPOmaxE91bYSDH+9P2ob70yxzbY0U=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd-sigvalue">
+IKgYcvWX5PeWCIYTTMItZMShBDevXckx/8EpECjtI4Fr+EG4RlOvplwPd2V+UdQSaZYPF+rlZSQ1
+U/v88ePpa7t9bs8eYGIH72HzVOQ2V6uAPlOIp9T8pjMviQwP6rVA7LnsIxygaBsynONOWrxsApmF
+bMzUVDiJ4lfdbBkWrHAc0vMJLed5njQ3YmWtRd6Npo6m+haDysBwiGOTYY9BTuMxMuKBAjxjSwbR
+p3DspIzdC7mKLdghvdSxYE+7gmsqnk088io8caOZjepuXXLOu8BMCuvckweYCEMdtu5LZlkvUUu2
+hhcdUUBYPMq57iV98zxBdxMDGgpKYlehw7LauQ==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIDYTCCAkmgAwIBAgIIFTSnkSc7SrAwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDMwMTIxMjI1NFoX
+DTI1MDIyODIxMjI1NFowKDERMA8GA1UEAwwIMTE4NDgxMDMxEzARBgNVBAoMCnNhdC5nb2IuZ3Qw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC546Z1wg/pvb9Z+y3TpG0dK3buKoOe3s17
+7LMIL0FdOjQ0Td9lUcvLOwDw5Hlm2IY5Enh8HUDg38YyghVxjUwR3uM6vP9TpppDCZ4p1jJHpkDG
+X/BPlpUNkJmYGX83RFdHskejFG3ZUIK7fKHYdNduaRheguFC5uYwPCKac2wPpeOck6S50r3qNC6t
+2/kd0k8Oidcrr/wMs1zVAUDr2FFcNusHV8RXoMqnck7kAqOOGGeRM5oqq/0GnvwoZZ3lQPhUFhdE
+bMPF0rmCDydgBLfgNHY60HDEnqjEqPv4vg17YpZSWnbrR/3q7zapX5sxEUSF5z3HL1pd5H4sfr1B
+RpJ3AgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWIJ2jVgosclDBAK01cheai//
++EowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBQ+2AbzFXCdZl1xRGqr
+7CR8pMtMAzAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBAB/14Krw15TNhU1r+rSE
+ET65CsCWjVE6adie2v3BuSyBNJBOP3zvmNIaB7eFzoM6UP93rs/1jgHMyg7jyOj1oeBOOxqgTB7w
+DFZJPnPevDiFpGh0jIc9p1op/ReJ/8pZ8zofXrgwgSpp60dgN5g/YMVWvAX2pzArmE1fM272w3u2
+JrRCAYI+C2wl1+f1WAQZBr/GIatMYY9p50e0mV172Hjs+5A8raYfQ/9wWj3qPuKfdNJ86796nOWi
+Mn2nHaM7c442ba7rDS+xZfvODp5q6Ta3afg+hZUFRKXgkXEeT5xvo1hDYBSh0EcIZZf37pqC/Qpn
+ayenlfQ4Emu8W3s2BDs=
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd">
+				<ns3:SignedProperties Id="xmldsig-1ae2f539-b2f8-4687-9d06-f92be5e80abd-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-02T20:18:47.835Z</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>05a1BddRAaCKj0CUGrvwg86YVeaoXTPoN14SqPKHJnA=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>1528030415455734448</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>dMKFT5GpRMlOOkvm+Eejattj/UGN45s1Ujg/fal4b6w=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>49188108610261972699090769446035082589</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+	<ns2:Signature Id="xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4">
+		<ns2:SignedInfo>
+			<ns2:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns2:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ns2:Reference Id="xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4-ref0" URI="#DatosCertificados">
+				<ns2:Transforms>
+					<ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns2:Transforms>
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>7y39gT8rZOF1zCuvmpMX5FG7yJort+v+QB/GFNz6sG4=</ns2:DigestValue>
+			</ns2:Reference>
+			<ns2:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4-signedprops">
+				<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ns2:DigestValue>e3i4s4XUgUaYaDZET0inQXDK/SLQsm3b6/gnD0Isptk=</ns2:DigestValue>
+			</ns2:Reference>
+		</ns2:SignedInfo>
+		<ns2:SignatureValue Id="xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4-sigvalue">
+e+9mmigasIGGUtFu9Ohuzcqvb33aG11G5sl0BoxQEvzQFgTzCGdEc9HQJh+VBr3WYJoxm7NnWuC2
+QoDnrqXyOm8LAR1EL4oN9nui9fap41f2Xc42SLj6MBs1jTmqPWtHtFHvk/P1/ehBIzRNoXSUDobi
+3OiADzSxl2mlyI22x7bhL9h/QZNCjFfM3hOEhjVxU0qjOSNT5B4mpLa/8qmshR0+P7CEARnqtesb
+B4mbVBHaXA+vMTrntn3uR6X1OqhzSGhObeWyE+Mi04KEAoWoJomoqQprocnX/wlFlUcYXav7pTfR
+LECo/zXBPn1l/taQ3X93KzFm1E094qa42cLr4g==
+</ns2:SignatureValue>
+		<ns2:KeyInfo>
+			<ns2:X509Data>
+				<ns2:X509Certificate>
+MIIJ6jCCB9KgAwIBAgIIIa/1u99VMGowDQYJKoZIhvcNAQELBQAwgcAxFjAUBgNVBGEMDVZBVEdU
+LTM1MTU5LTgxLTArBgNVBAMMJENhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGEgQ0EgMTEs
+MCoGA1UECwwjUFNDLUNhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExKDAmBgNVBAoMH0Nh
+bWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExEjAQBgNVBAcMCUd1YXRlbWFsYTELMAkGA1UE
+BhMCR1QwHhcNMjQwNzIyMTU0NTAwWhcNMjUwNzIyMTU0NTAwWjCB8jExMC8GA1UECQwoNyBBdmVu
+aWRhIDMtNzMgem9uYSA5IEVkaWZpY2lvIFRvcnJlIFNBVDE3MDUGA1UEAwwuU3VwZXJpbnRlbmRl
+bmNpYSBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTERMA8GA1UEBRMIMTY2OTM5NDkxNzA1
+BgNVBAoMLlN1cGVyaW50ZW5kZW5jaWEgZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExEjAQ
+BgNVBAcMCUdVQVRFTUFMQTELMAkGA1UEBhMCR1QxFzAVBgNVBGEMDlZBVEdULTE2NjkzOTQ5MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCybxNOdk5BB/+qluY/lI8GXdJ5R7u7oE2A1
+0v1doho6G5dmQicGzxzt+uKaKpHyNbvw1yukC/FbYmbuR6Hs2G88cdr1OP5GjzLx3OyW4h4NXTSH
+K0Lf4R6ExcNKOzoJPHScphziPfYJ3OVeWY72tMdjv37Hfmd89pE4Q2MnNFRgevx6unCbaBpwfVGc
+ZrLWFYHwf0WJy4UMWsFzSYoA43xaOWgcZAxqQxcREnqm7yYVFxwG1C0FgvkX0ZPADXpjdwh7SCPV
+h5s7yMNQD03eu0bcSgTD/qmbldAq0lqXSddtMGRtLypQu9Zs17xOe0gx0cSs+i6Fr5ST9u4OxF3l
+9wIDAQABo4IEsjCCBK4wgcsGCCsGAQUFBwEBBIG+MIG7MEkGCCsGAQUFBzAChj1odHRwOi8vd3d3
+LmZpcm1hLWUuY29tLmd0L2NlcnRpZmljYWRvcy9hY19zdWJvcmRpbmFkYV9jY2cuY2VyMDYGCCsG
+AQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYB
+BQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4E
+FgQUVdBJgdBYBceE5wz2O/y/wEcKthcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQHMhJaOy8S
+RoNWMa2G5dNCFi3AmzAWBgNVHRIEDzANgQtpbmZvQGNjZy5ndDCCAqwGA1UdIASCAqMwggKfMIIC
+kQYKKwYBBAGBtWMBBjCCAoEwKwYIKwYBBQUHAgEWH2h0dHBzOi8vZmlybWEtZS5jb20uZ3QvanVy
+aWRpY28wggFGBggrBgEFBQcCAjCCATgeggE0AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAEQAaQBn
+AGkAdABhAGwAIABkAGUAIABQAGUAcgBzAG8AbgBhACAASgB1AHIA7QBkAGkAYwBhACAAZQBtAGkA
+dABpAGQAbwAgAHAAbwByACAAQwDhAG0AYQByAGEAIABkAGUAIABDAG8AbQBlAHIAYwBpAG8AIABk
+AGUAIABHAHUAYQB0AGUAbQBhAGwAYQAsACAATgBJAFQAIAAzADUAMQA1ADkALQA4ACwAIABpAG4A
+ZgBvAEAAYwBjAGcALgBnAHQALAAgAHUAYgBpAGMAYQBkAG8AIABlAG4AIAAxADAAIABDAGEAbABs
+AGUAIAAzAC0AOAAwACAAWgBvAG4AYQAgADEALAAgAEcAdQBhAHQAZQBtAGEAbABhAC4wggEGBggr
+BgEFBQcCAjCB+R6B9gBBAHUAdABvAHIAaQB6AGEAZABvACAAcwBlAGcA+gBuACAAcgBlAHMAbwBs
+AHUAYwBpAPMAbgAgAGQAZQAgADIAMwAuADAAMQAuADIAMAAxADIALAAgAE4AbwAuACAAUABTAEMA
+LQAwADEALQAyADAAMQAyACAAZABlAGwAIABSAFAAUwBDACAAZABlAGwAIABNAGkAbgBpAHMAdABl
+AHIAaQBvACAAZABlACAARQBjAG8AbgBvAG0A7QBhACAAZABlACAAbABhACAAUgBlAHAA+gBiAGwA
+aQBjAGEAIABkAGUAIABHAHUAYQB0AGUAbQBhAGwAYTAIBgYEAI96AQIweQYDVR0fBHIwcDA2oDSg
+MoYwaHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NDR1QuY3JsMDagNKAy
+hjBodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0NHVC5jcmwwDgYDVR0P
+AQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAeBgNVHREEFzAVgRNvaWdv
+bnphbEBzYXQuZ29iLmd0MA0GCSqGSIb3DQEBCwUAA4ICAQCIXhV1Mj2Mdihrxzx+RhLAnhkc4JId
+txM/hafe8mS3GjOXaWxGQC1b0OMoovCfcYJItzq0fu990Ghv2BbguqiXHDP2oXOpQLKbV6TmdW/e
+GHCNjIcw+vEmZMRq8yfC+D40b+Pq0lfCzNyBKv/ZfmzJbesVS4oyL4q/CrQcNQM7SR7qXtGK4zl2
+KBI5yvn7KdXSrG9dgRNnKAkbAIe7DcN8V7DEIYtYQltP7Qy6AK3LE4cR5GX5BcND6y7tlJtnA4lK
+oBQX3Qe5vj8X1QZ6G2wDvVDqZkYT1CTHG1cnNGZ8yZ8Pe0xL9PhirDcXEUZq+mGadc+hWu5vt40o
+Q/beez2ITtKbEBCH65t7P+B5nXyCpWl0a9An5SGOwspkb4/7tX+QnyWRv+X23wZ4oEIHLc5h+w40
+OGQD52GDVV7UfrrTHTKXB7ZbYMO5oqkQtgGNeU97F6ZGg8JRxlToRAvbvSDdlyCTp3dupvPpIl9p
+/DDiZSV/2UIogWr/W2Gro+rUxMuwUWJluqo/vGqRC/zrP5mAa56LjUx6qzvqWdJjcppKOWUQtlaN
+Wb6AXOsMqrCr4gPGPUhkj2zAov9FkDJ9MmcnndOcx5HgMh2fo5oEdNoLaI5YFEfyO8JKA0Znyv3X
+PiHrBYC0k/lTdZjNb1UJ381dPamLX1Nug4xL+7fytD55MA==
+</ns2:X509Certificate>
+			</ns2:X509Data>
+		</ns2:KeyInfo>
+		<ns2:Object>
+			<ns3:QualifyingProperties Target="#xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4">
+				<ns3:SignedProperties Id="xmldsig-c8de53ae-32db-4809-8fdc-7542b05799a4-signedprops">
+					<ns3:SignedSignatureProperties>
+						<ns3:SigningTime>2024-10-02T20:18:47.890Z</ns3:SigningTime>
+						<ns3:SigningCertificate>
+							<ns3:Cert>
+								<ns3:CertDigest>
+									<ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+									<ns2:DigestValue>HQIA714asNNgcCH99oYNJNj0JVULvU7nQ0hcfOcOnes=</ns2:DigestValue>
+								</ns3:CertDigest>
+								<ns3:IssuerSerial>
+									<ns2:X509IssuerName>C=GT,L=Guatemala,O=Camara de Comercio de Guatemala,OU=PSC-Camara de Comercio de Guatemala,CN=Camara de Comercio de Guatemala CA 1,2.5.4.97=#0c0d56415447542d33353135392d38</ns2:X509IssuerName>
+									<ns2:X509SerialNumber>2427428911430578282</ns2:X509SerialNumber>
+								</ns3:IssuerSerial>
+							</ns3:Cert>
+						</ns3:SigningCertificate>
+					</ns3:SignedSignatureProperties>
+				</ns3:SignedProperties>
+			</ns3:QualifyingProperties>
+		</ns2:Object>
+	</ns2:Signature>
+</ns0:GTDocumento>
