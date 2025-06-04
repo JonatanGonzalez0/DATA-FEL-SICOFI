@@ -318,7 +318,16 @@ def cargarArchivo():
                     nombre = nombre.replace(",",'')
 
                     if type_service_bien.get()=="Servicios afectos":
-                        servaf = round(df.loc[index_df]['Monto (Gran Total)'],2)
+                        try :
+                            servaf = round(df.loc[index_df]['Monto (Gran Total)'],2)
+                        except:
+                            try:
+                                servaf = round(df.loc[index_df]['Gran Total (Moneda Original)'],2)
+                            except:
+                                # crear excepcion si no se encuentra el campo 
+                                servaf = 0
+
+                        
                         servnaf = 0 
 
                         bienaf = 0
@@ -326,8 +335,16 @@ def cargarArchivo():
                     elif type_service_bien.get()=="Bienes afectos":
                         servaf = 0
                         servnaf = 0
-
-                        bienaf = round(df.loc[index_df]['Monto (Gran Total)'],2)
+                        try:
+                            
+                            bienaf = round(df.loc[index_df]['Monto (Gran Total)'],2)
+                        except:
+                            try:
+                                bienaf = round(df.loc[index_df]['Gran Total (Moneda Original)'],2)
+                            except:
+                                # crear excepcion si no se encuentra el campo 
+                                bienaf = 0
+                        
                         biennaf = 0
                     
                     otros = 0
@@ -366,8 +383,10 @@ def cargarArchivo():
                 f.close()
         messagebox.showinfo("Correcto","Se analizaron las facturas, se encuentraen en carpeta Documentos/FEL-A-SICOFI")
         webbrowser.open(path_DataOutput)    
-    except:
-        messagebox.showwarning("Error","No se abrio ningun archivo") 
+    except Exception as e:
+        print(e)
+        messagebox.showwarning("Error","No se pudo realizar la operacion \n Error : [ " + str(e) + " ]")
+        return
 
 def extraerInfoCompras():
     global boolProcesar, nombreReceptor, nomenclatura, procesarSiguiente
@@ -492,8 +511,21 @@ def extraerInfoCompras():
                     precioUnit = round(float(item.find('DTE:PrecioUnitario',ns).text),2)
                     total = round(float(item.find('DTE:Total',ns).text),2)
 
-                    itemTemp = Item(cant,descripcion,precioUnit,total,tipo)
-                    itemsTemp.append(itemTemp)                    
+                    impuestos = item.find('DTE:Impuestos',ns)
+                    impuesto = impuestos.find('DTE:Impuesto',ns)
+
+                    monto_impuesto = round(float(impuesto.find('DTE:MontoImpuesto',ns).text),2)
+
+                    bien_af = bien_naf = serv_af = serv_naf = 0
+                    if tipo == 'B':
+                        bien_af = total if monto_impuesto > 0 else 0
+                        bien_naf = 0 if monto_impuesto > 0 else total
+                    elif tipo == 'S':
+                        serv_af = total if monto_impuesto > 0 else 0
+                        serv_naf = 0 if monto_impuesto > 0 else total
+
+                    itemTemp = Item(cant,descripcion,precioUnit,total,tipo,serv_af,serv_naf,bien_af,bien_naf,monto_impuesto)
+                    itemsTemp.append(itemTemp)
                     grandTotal += total
                     
                 
@@ -538,7 +570,7 @@ def extraerInfoCompras():
                 stylettk.configure('oddrow.Treeview', background='lightgrey')  # Filas impares
 
                 # Crear el treeview
-                tree = ttk.Treeview(ventana, columns=("Tipo","Cantidad", "Descripcion", "Precio Unitario", "Total"), show="headings", style="Treeview",height=12)
+                tree = ttk.Treeview(ventana, columns=("Tipo","Cantidad", "Descripcion", "Precio Unitario", "Total", "Impuesto"), show="headings", style="Treeview",height=12)
                 tree.place(x=30, y=240)
 
                 # Definir los encabezados de las columnas
@@ -547,22 +579,24 @@ def extraerInfoCompras():
                 tree.heading("Descripcion", text="Descripcion")
                 tree.heading("Precio Unitario", text="Precio Unitario")
                 tree.heading("Total", text="Total")
+                tree.heading("Impuesto", text="Impuesto")
 
                 # Ajustar el ancho de la columna "Descripcion"
                 tree.column("Tipo", width=100, minwidth=100, anchor="center")
                 tree.column("Cantidad", width=100, minwidth=100, anchor="center")
-                tree.column("Descripcion", width=500, minwidth=250)
+                tree.column("Descripcion", width=400, minwidth=250)
                 tree.column("Precio Unitario", width=150, minwidth=100, anchor="center")
                 tree.column("Total", width=100, minwidth=100, anchor="center")
-
+                tree.column("Impuesto", width=100, minwidth=100, anchor="center")
+                
                 # Agregar los items al Treeview
                 for i, item in enumerate(itemsTemp):
                     tipo = "Bien" if item.tipo == "B" else "Servicio"
                     # Usar colores de fondo alternos para las filas
                     if i % 2 == 0:
-                        tree.insert("", "end", values=(tipo, item.cantidad, item.descripcion, "Q"+ str(round(item.precio,2)), "Q"+str(round(item.total,2))), tags=('evenrow',))
+                        tree.insert("", "end", values=(tipo, item.cantidad, item.descripcion, "Q"+ str(round(item.precio,2)), "Q"+str(round(item.total,2)), "Q"+str(round(item.impuesto,2))), tags=('evenrow',))
                     else:
-                        tree.insert("", "end", values=(tipo, item.cantidad, item.descripcion, "Q"+ str(round(item.precio,2)), "Q"+str(round(item.total,2))), tags=('oddrow',))
+                        tree.insert("", "end", values=(tipo, item.cantidad, item.descripcion, "Q"+ str(round(item.precio,2)), "Q"+str(round(item.total,2)), "Q"+str(round(item.impuesto,2))), tags=('oddrow',))
                 
                 
                 def procesarInformacion():
@@ -575,13 +609,6 @@ def extraerInfoCompras():
                     ctagasto = cuenta.split("-")[0]
                     serv_af = 0
                     comp_af = 0
-                    
-                    tipoPrincipal = itemsTemp[0].tipo
-                    if tipoPrincipal == 'S':
-                        serv_af = truncar(grandTotal,2)
-                    elif tipoPrincipal == 'B':
-                        comp_af = truncar(grandTotal,2)
-                    
                     serv_naf = 0
                     serv_afe = 0
                     serv_nafe = 0
@@ -589,6 +616,23 @@ def extraerInfoCompras():
                     comp_afe = 0
                     comp_nafe = 0
                     otros = 0
+                    
+                    for item in itemsTemp:
+                        if item.tipo == 'B':
+                            bien_af = item.total if item.impuesto > 0 else 0
+                            bien_naf = 0 if item.impuesto > 0 else item.total
+                            serv_af += 0
+                            serv_naf += 0
+                            comp_af += bien_af
+                            comp_naf += bien_naf
+                        elif item.tipo == 'S':
+                            serv_af += item.total if item.impuesto > 0 else 0
+                            serv_naf += 0 if item.impuesto > 0 else item.total
+                            bien_af = 0
+                            bien_naf = 0
+                            comp_af += serv_af
+                            comp_naf += serv_naf
+                        
 
                     if TipoDoc == 4:
                         messagebox.showwarning("Error","No se puede procesar facturas especiales\n Se creara un archivo de facturas no procesadas")

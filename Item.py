@@ -1,10 +1,16 @@
 class Item:
-    def __init__(self,cantidad,descripcion,precio,total,tipo):
+    def __init__(self,cantidad,descripcion,precio,total,tipo,serv_af=None,serv_naf=None,comp_af=None,comp_naf=None,impuesto=None):
         self.cantidad = cantidad
         self.descripcion = descripcion
         self.precio = precio
         self.total = total
         self.tipo = tipo
+        self.impuesto = impuesto
+        self.serv_af = serv_af
+        self.serv_naf = serv_naf
+        self.comp_af = comp_af
+        self.comp_naf = comp_naf
+        
 
 class Compra:
 # nit,razon,peqcont,retenerisr,serie,numero,fecha,periodo,serv_af,serv_naf,serv_afe,serv_nafe,comp_af,comp_naf,comp_afe,comp_nafe,otros,concepto,descrip,tipodoc,centro,ctagasto,sucursal,isrreten,fchaisr,visrreten,isrtipo,isrconcep,isrbase
