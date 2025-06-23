@@ -621,17 +621,11 @@ def extraerInfoCompras():
                         if item.tipo == 'B':
                             bien_af = item.total if item.impuesto > 0 else 0
                             bien_naf = 0 if item.impuesto > 0 else item.total
-                            serv_af += 0
-                            serv_naf += 0
                             comp_af += bien_af
                             comp_naf += bien_naf
                         elif item.tipo == 'S':
                             serv_af += item.total if item.impuesto > 0 else 0
-                            serv_naf += 0 if item.impuesto > 0 else item.total
-                            bien_af = 0
-                            bien_naf = 0
-                            comp_af += serv_af
-                            comp_naf += serv_naf
+                            serv_naf += 0 if item.impuesto > 0 else item.total                         
                         
 
                     if TipoDoc == 4:
@@ -728,7 +722,7 @@ def extraerInfoCompras():
             
             except Exception as e:
                 print(e)
-                messagebox.showwarning("Error","No se pudo extraer informacion del archivo : " + str(e))
+                # messagebox.showwarning("Error","No se pudo extraer informacion del archivo : " + str(e))
                 continue
         operaciones_ordenadas = sorted(compras,key=lambda Compra: Compra.fechaObj)
         file_export_csv = path_DataOutputCompras + "\\" + nombreReceptor + "_COMPRAS_" + periodo + ".csv"
